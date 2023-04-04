@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 // import { Varela_Round } from 'next/font/google'
 import styles from '@/styles/Home.module.css';
-import Link from 'next/link';
 import { useRouter } from "next/router";
 
 // const varela_font = Varela_Round({ subsets: ['latin'] })
