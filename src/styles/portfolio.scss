@@ -45,3 +45,11 @@
   }
 }
 
+
+@media screen and (max-width: 576px) {
+  
+  .portfolio-container-1 {
+    grid-template-columns: 1fr ;
+  }
+
+}

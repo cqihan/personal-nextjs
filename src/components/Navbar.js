@@ -1,8 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
 // import { Varela_Round } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import Link from 'next/link'
+import styles from '@/styles/Home.module.css';
+import Link from 'next/link';
 import { useRouter } from "next/router";
 
 // const varela_font = Varela_Round({ subsets: ['latin'] })
@@ -23,7 +24,7 @@ export default function Navbar() {
 
         <div className="navbar-container">
           <div className="logo-container">
-            <a href='/' className="navbar-logo" target='_parent'>
+            <Link href='/' className="navbar-logo" target='_parent'>
               <Image
                 src="/assets/images/cqihan-03.png"
                 alt="Vercel Logo"
@@ -31,7 +32,7 @@ export default function Navbar() {
                 height={70}
                 priority
               />
-            </a>
+            </Link>
           </div>
 
           <ul className='nav-menu'>
