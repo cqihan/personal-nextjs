@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { Inter } from 'next/font/google';
-import styles from '@/styles/Home.module.css';
+import { PersonalCard } from '@/components/CardTemplate_1';
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Portfolio() {
   return (
@@ -16,7 +14,20 @@ export default function Portfolio() {
       </Head>
 
       <main className={`wrap-portfolio`}>
+        <div className={`portfolio-header`}>
+          <h1>Showcase of My Projects</h1>
+          <p>This is a showcase of projects I had previously involved in</p>
+        </div>
+        <div className={`portfolio-container-1`}>
+          <PersonalCard 
+            background_image={`/assets/images/bgimage-03.png`}
 
+            main_title={`Current Personal Web`}
+            // main_title_desc={`This is my portfolio made with NextJS`}
+
+            text_title={`Tools and Languages:`}
+          />
+        </div>
       </main>
     </>
   )

@@ -6,6 +6,7 @@ import { NextUIProvider } from '@nextui-org/react';
 import '@/styles/animations.scss';
 import '@/styles/Navbar.scss';
 import '@/styles/index.scss';
+import '@/styles/portfolio.scss';
 
 export default function App({ Component, pageProps }) {
   console.log('pageProps',pageProps)

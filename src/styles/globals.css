@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color:#000;
+  background-color:#000 !important;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -41,6 +41,11 @@ p {
   border-radius: 3px;
   background: #a7a49e; 
 }
+
+/* .nextui-popover-content {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  backdrop-filter: blur(8px) !important;
+} */
 
 /* :root {
   --max-width: 1100px;
