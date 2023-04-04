@@ -1,11 +1,11 @@
 import '@/styles/globals.css';
 import "@fontsource/varela-round";
-import '@/styles/animations.scss';
 import Navbar from '@/components/Navbar';
 import { NextUIProvider } from '@nextui-org/react';
 
-import '@/styles/Navbar.scss'
-import '@/styles/index.scss'
+import '@/styles/animations.scss';
+import '@/styles/Navbar.scss';
+import '@/styles/index.scss';
 
 export default function App({ Component, pageProps }) {
   console.log('pageProps',pageProps)
@@ -16,7 +16,9 @@ export default function App({ Component, pageProps }) {
     ) : (
       <>
         <Navbar />
-        <Component {...pageProps} />
+        <NextUIProvider>
+          <Component {...pageProps} />
+        </NextUIProvider>
       </>
     )}
     </>

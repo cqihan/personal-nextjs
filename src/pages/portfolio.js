@@ -15,10 +15,7 @@ export default function Portfolio() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`wrap-landing `}>
-        <div className={`gradient`}>
-
-        </div>
+      <main className={`wrap-portfolio`}>
 
       </main>
     </>
