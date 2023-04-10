@@ -1,11 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
-// import { Varela_Round } from 'next/font/google'
 import styles from '@/styles/Home.module.css';
 import { useRouter } from "next/router";
-
-// const varela_font = Varela_Round({ subsets: ['latin'] })
 
 export default function Navbar() {
   const router = useRouter();
@@ -53,8 +50,45 @@ export default function Navbar() {
               </Link>
             </li>
           </ul>
-        </div> {/*  close navbar-container */}
+        </div>
       </nav>
+
+      {/* <nav className={`wrap-navbar-mobile `}>
+
+        <div className="navbar-container">
+          <div className="logo-container">
+            <Link href='/' className="navbar-logo" target='_parent'>
+              <Image
+                src="/assets/images/cqihan-03.png"
+                alt="Vercel Logo"
+                width={150}
+                height={70}
+                priority
+              />
+            </Link>
+          </div>
+
+          <ul className='nav-menu'>
+            <li className='nav-item'>
+              <Link href='/' className={`${router.pathname == "/" ? "active" : ""} nav-links`} target='_top'>
+                  home
+              </Link>
+            </li>
+
+            <li className='nav-item'>
+              <Link href='/about_me' className={`${router.pathname == "/about_me" ? "active" : ""} nav-links`} target='_top'>
+                  about me
+              </Link>
+            </li>
+
+            <li className='nav-item'>
+              <Link href='/portfolio' className={`${router.pathname == "/portfolio" ? "active" : ""} nav-links`} target='_top'>
+                  portfolio
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav> */}
     </>
   )
 }

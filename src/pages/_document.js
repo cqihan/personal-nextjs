@@ -28,10 +28,18 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>{CssBaseline.flush()}</Head>
+        <Head>
+          {CssBaseline.flush()}
+          {/* <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> */}
+        </Head>
         <body>
           <Main />
           <NextScript />
+
+          {/* <script>
+            AOS.init();
+          </script> */}
         </body>
       </Html>
     );

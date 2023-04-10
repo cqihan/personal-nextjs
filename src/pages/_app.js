@@ -9,7 +9,7 @@ import '@/styles/index.scss';
 import '@/styles/portfolio.scss';
 
 export default function App({ Component, pageProps }) {
-  console.log('pageProps',pageProps)
+  // console.log('pageProps',pageProps);
   return (
     <>
     {pageProps.statusCode === 404 ? (

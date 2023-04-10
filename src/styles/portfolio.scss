@@ -1,13 +1,11 @@
 
 .wrap-portfolio {
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 100px 0 0;
+  padding: 30px 0 60px;
   background-color: #000;
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
 }
 
 .portfolio-header {
@@ -28,7 +26,7 @@
 .portfolio-container-1 {
   width: 90%;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -45,11 +43,160 @@
   }
 }
 
+.port-card-1 {
+  width: 100%;
+  height: 400px;
+  // background: linear-gradient(45deg, #4e0000, #070d55);
+  background-image: url('../../public/assets/images/bgimage-03.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  & > h3 {
+    color: #fff;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  & .port-card-1-item {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.586);
+    padding: 10px 20px;
+    border-radius: 0 0 14px 14px;
+    border-top: 1px solid rgba(69, 69, 69, 0.5);
+    backdrop-filter: blur(5px);
+
+    &-title {
+      color: #fff;
+      font-size: 12px;
+    } 
+
+    &-content {
+      margin: 10px 0;
+      display: flex;
+      gap: 20px;
+
+      & .card-icon-type1 {
+        width: auto;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.portfolio-content-1 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+
+  & h2 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 0 20px;
+  }
+}
+
+.portfolio-content-1-container-1 {
+  width: 100%;
+  height: auto;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 90px 20px ;
+}
+
+.project-card-container {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 60%;
+  border-radius: 14px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    border-radius: 14px 14px 0 0;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+
+  & .project-desc-2 {
+    display: none;
+  }
+
+  &.ubbmeta {
+    background-image: url('../../public/assets/images/ubb-bgimage-1.png');
+  }
+  &.washla {
+    background-image: url('../../public/assets/images/Washla-bgimage-1.png');
+  }
+  &.quickfix {
+    background-image: url('../../public/assets/images/quickfix-bgimage-1.png');
+  }
+  &.akc {
+    background-image: url('../../public/assets/images/apekidsclub-bgimage-1.png');
+  }
+  &.base2 {
+    background-image: url('../../public/assets/images/base2-bgimage-1.png');
+  }
+  &.autopit {
+    background-image: url('../../public/assets/images/autopit-bgimage-1.png');
+  }
+  &.tclam {
+    background-image: url('../../public/assets/images/tclam-bgimage-1.png');
+  }
+  &.elysium {
+    background-image: url('../../public/assets/images/elysium-bgimage-1.png');
+  }
+  &.udbio {
+    background-image: url('../../public/assets/images/udbio-bgimage-1.png');
+  }
+  &.bizcentric {
+    background-image: url('../../public/assets/images/bizcentric-bgimage-1.png');
+  }
+  &.fresotech {
+    background-image: url('../../public/assets/images/freso-bgimage-1.png');
+  }
+  &.shawarma {
+    background-image: url('../../public/assets/images/shawarma-bgimage-1.png');
+  }
+  &.qcrental {
+    background-image: url('../../public/assets/images/qcrental-bgimage-1.png');
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .portfolio-content-1-container-1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .portfolio-content-1-container-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
 @media screen and (max-width: 576px) {
   
   .portfolio-container-1 {
     grid-template-columns: 1fr ;
   }
-
+  
+  .port-card-1 {
+    height: 250px;
+  }
+  .portfolio-content-1-container-1 {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 10px;
+  }
 }
