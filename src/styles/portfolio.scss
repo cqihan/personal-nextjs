@@ -4,13 +4,14 @@
   height: auto;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 30px 0 60px;
+  padding: 30px 0 120px;
   background-color: #000;
 }
 
 .portfolio-header {
-  width: 90%;
+  width: 100%;
   height: auto;
+  padding: 0 80px;
   margin: 0 auto 30px;
 
   & h1 {
@@ -19,14 +20,15 @@
   }
   & p {
     font-size: 16px;
-    color: #ebebeb;
+    color: #b1b1b1;
   }
 }
 
 .portfolio-container-1 {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin: 0 auto 60px;
+  padding: 0 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -91,87 +93,192 @@
 }
 
 .portfolio-content-1 {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
 
   & h2 {
+    width: 100%;
     color: #fff;
+    padding: 0 80px;
     font-size: 20px;
-    margin: 0 0 20px;
+    margin: 0 auto;
   }
 }
 
 .portfolio-content-1-container-1 {
   width: 100%;
   height: auto;
+  margin: 0 auto;
+  padding: 20px 80px;
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 90px 20px ;
+  gap: 180px 20px ;
+  // overflow-x: hidden;
+  // overflow-y: hidden;
 }
 
 .project-card-container {
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-top: 60%;
+  height: 200px;
+  position: relative;
   border-radius: 14px;
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
+  
+  & .project-desc-1 {
+    width: 100%;
+    padding-top: 60%;
+    border-radius: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-  &:hover {
-    border-radius: 14px 14px 0 0;
-    transform: scale(1.2);
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    &.ubbmeta {
+      background-image: url('../../public/assets/images/ubb-bgimage-1.png');
+    }
+    &.washla {
+      background-image: url('../../public/assets/images/Washla-bgimage-1.png');
+    }
+    &.quickfix {
+      background-image: url('../../public/assets/images/quickfix-bgimage-1.png');
+    }
+    &.akc {
+      background-image: url('../../public/assets/images/apekidsclub-bgimage-1.png');
+    }
+    &.base2 {
+      background-image: url('../../public/assets/images/base2-bgimage-1.png');
+    }
+    &.autopit {
+      background-image: url('../../public/assets/images/autopit-bgimage-1.png');
+    }
+    &.tclam {
+      background-image: url('../../public/assets/images/tclam-bgimage-1.png');
+    }
+    &.elysium {
+      background-image: url('../../public/assets/images/elysium-bgimage-1.png');
+    }
+    &.udbio {
+      background-image: url('../../public/assets/images/udbio-bgimage-1.png');
+    }
+    &.bizcentric {
+      background-image: url('../../public/assets/images/bizcentric-bgimage-1.png');
+    }
+    &.fresotech {
+      background-image: url('../../public/assets/images/freso-bgimage-1.png');
+    }
+    &.shawarma {
+      background-image: url('../../public/assets/images/shawarma-bgimage-1.png');
+    }
+    &.qcrental {
+      background-image: url('../../public/assets/images/qcrental-bgimage-1.png');
+    }
   }
 
   & .project-desc-2 {
     display: none;
+    padding: 10px 10px ;
+    width: 100% !important;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(5px);
+    // position: absolute;
+
+    & .project-desc-2-header {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 10px;
+    }
+
+    & h3 {
+      color: #fff;
+      font-size: 12px;
+      font-family: "Montserrat" !important;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    & .project-desc-2-type {
+      color: #fff;
+      background-color: rgb(50, 50, 50);
+      height: fit-content;
+      margin: 0;
+      border-radius: 5px;
+      padding: 5px 10px 3px;
+      margin: 0;
+      font-size: 10px;
+    }
+
+    & p {
+      color: #bababa;
+      font-size: 10px;
+      font-family: "Montserrat" !important;
+    }
+
+    & .project-desc-2-icons-container {
+      display: flex;
+      gap: 10px;
+      margin: 10px auto;
+
+      & .nextui-c-iVzbCs {
+        width: 35px;
+        height: 35px !important;
+        border: 2px solid transparent;
+        animation: border-pulse 4s infinite;
+        border-radius: 8px;
+      }
+    }
+
+    & .project-desc-2-btn-text {
+      width: 80% !important;
+      margin: 0 auto 10px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      & button, & span {
+        width: 100%;
+        font-size: 10px;
+      }
+    }
+  }
+  &.hoverXright:hover {
+    transform: scale(1.2) translateX(30px)!important;
   }
 
-  &.ubbmeta {
-    background-image: url('../../public/assets/images/ubb-bgimage-1.png');
+  &:hover, &:focus  {
+    z-index: 10;
+    transform: scale(1.2) !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+    & .project-desc-1 {
+      border-radius: 14px 14px 0 0 !important;
+    }
+    & .project-desc-2 {
+      display: grid;
+      border-radius: 0 0 14px 14px !important;
+    }
   }
-  &.washla {
-    background-image: url('../../public/assets/images/Washla-bgimage-1.png');
-  }
-  &.quickfix {
-    background-image: url('../../public/assets/images/quickfix-bgimage-1.png');
-  }
-  &.akc {
-    background-image: url('../../public/assets/images/apekidsclub-bgimage-1.png');
-  }
-  &.base2 {
-    background-image: url('../../public/assets/images/base2-bgimage-1.png');
-  }
-  &.autopit {
-    background-image: url('../../public/assets/images/autopit-bgimage-1.png');
-  }
-  &.tclam {
-    background-image: url('../../public/assets/images/tclam-bgimage-1.png');
-  }
-  &.elysium {
-    background-image: url('../../public/assets/images/elysium-bgimage-1.png');
-  }
-  &.udbio {
-    background-image: url('../../public/assets/images/udbio-bgimage-1.png');
-  }
-  &.bizcentric {
-    background-image: url('../../public/assets/images/bizcentric-bgimage-1.png');
-  }
-  &.fresotech {
-    background-image: url('../../public/assets/images/freso-bgimage-1.png');
-  }
-  &.shawarma {
-    background-image: url('../../public/assets/images/shawarma-bgimage-1.png');
-  }
-  &.qcrental {
-    background-image: url('../../public/assets/images/qcrental-bgimage-1.png');
-  }
+  
+}
+
+.project-card-icon {
+  color: #ff0000;
+  font-size: 20px;
 }
 
 
+@keyframes border-pulse {
+  0% {
+    border-color: #000;
+  }
+  50% {
+    border-color: #ba0000;
+  }
+  100% {
+    border-color: #000;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .portfolio-content-1-container-1 {
@@ -198,5 +305,12 @@
   .portfolio-content-1-container-1 {
     grid-template-columns: 1fr 1fr;
     gap: 20px 10px;
+    padding: 10px;
+  }
+
+
+  .project-card-container .project-desc-2 .project-desc-2-icons-container .nextui-c-iVzbCs {
+    width: 25px !important;
+    height: 25px !important;
   }
 }

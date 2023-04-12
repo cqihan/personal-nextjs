@@ -22,7 +22,7 @@ export default function Home() {
         </div>
 
         <div className={`landing-container`}>
-          <div className={`hero-container`} data-aos="fade-up">
+          <div className={`hero-container`} data-aos="fade-left">
             <h1>i am a frontend web dev</h1>
             <p>and this is my profile</p>
 
