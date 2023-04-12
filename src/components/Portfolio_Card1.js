@@ -36,7 +36,7 @@ export const Projects1 = () => {
             <h3><HiOutlineFingerPrint className="project-card-icon" />UBB Meta</h3>
             <span className={`project-desc-2-type`}>CRM</span>
           </div>
-          <p>UBB Amanah (Labuan) Limited (also known as "UBBAL") was established in 2021. It is a fully owned subsidiary of UBB Amanah Berhad, a leader in the Malaysian Independent Trust Service Sector that has been in operation since founded in 1988. Individuals and huge organizations with demanding needs make up our clientele. </p>
+          <p>UBB Amanah (Labuan) Limited (also known as &quot;UBBAL&quot;) was established in 2021. It is a fully owned subsidiary of UBB Amanah Berhad, a leader in the Malaysian Independent Trust Service Sector that has been in operation since founded in 1988. Individuals and huge organizations with demanding needs make up our clientele. </p>
 
           <div className={`project-desc-2-icons-container`}>
             <PopoverItem 
@@ -214,7 +214,7 @@ export const Projects1 = () => {
             <h3><HiOutlineFingerPrint className="project-card-icon" />Autopit</h3>
             <span className={`project-desc-2-type`}>Services/E-Commerce</span>
           </div>
-          <p>AutoPit was founded in the year 2022, focusing to provide customers with a professional car shopping experience, the primary position of the company's main service is to source used cars namely, recon cars imported from places such as Japan, Australia, or the UK. The price of these premium cars is cheaper than the official imports which provide customers with plenty of new car purchases.</p>
+          <p>AutoPit was founded in the year 2022, focusing to provide customers with a professional car shopping experience, the primary position of the company&apos;s main service is to source used cars namely, recon cars imported from places such as Japan, Australia, or the UK. The price of these premium cars is cheaper than the official imports which provide customers with plenty of new car purchases.</p>
 
           <div className={`project-desc-2-icons-container`}>
             <PopoverItem 
