@@ -43,6 +43,10 @@ export const Projects1 = () => {
               popover_image="/assets/images/tools-icons/nextjs.png"
               popover_desc="Next.js by Vercel - The React Framework"
             />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/tailwindcss.png"
+              popover_desc="Tailwind CSS - A utility-first CSS framework packed with classes"
+            />
           </div>
           <Link href="https://login.ubbib.io/welcome" className="project-desc-2-btn-text" target="_blank">
             <Button color="error" auto size={`sm`} >
