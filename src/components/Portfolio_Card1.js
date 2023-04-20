@@ -50,7 +50,12 @@ export const Projects1 = () => {
           </div>
           <Link href="https://login.ubbib.io/welcome" className="project-desc-2-btn-text" target="_blank">
             <Button color="error" auto size={`sm`} >
-                https://login.ubbib.io/
+                {/* https://login.ubbib.io/  */} View UBB CRM
+            </Button>
+          </Link>
+          <Link href="https://ubbib.io/" className="project-desc-2-btn-text" target="_blank">
+            <Button color="error" auto size={`sm`} >
+                {/* https://login.ubbib.io/  */} View UBB Landing
             </Button>
           </Link>
         </div>
@@ -87,7 +92,7 @@ export const Projects1 = () => {
           </div>
           <Link href="https://washla.my" className="project-desc-2-btn-text" target="_blank">
             <Button color="warning" auto size={`sm`} >
-                https://washla.my/
+                {/* https://washla.my/ */} View WashLa
             </Button>
           </Link>
         </div>
@@ -128,7 +133,7 @@ export const Projects1 = () => {
           </div>
           <Link href="https://quickfixdiy.com.my/" className="project-desc-2-btn-text" target="_blank">
             <Button color="error" auto size={`sm`} >
-              https://quickfixdiy.com.my/
+              {/* https://quickfixdiy.com.my/ */} View QuickFix DIY
             </Button>
           </Link>
         </div>
@@ -157,12 +162,12 @@ export const Projects1 = () => {
           </div>
           <Link href="https://www.apekidsclub.io/" className="project-desc-2-btn-text" target="_blank">
             <Button color="primary" auto size={`sm`} >
-              https://www.apekidsclub.io/
+              {/* https://www.apekidsclub.io/ */} View ApeKidsClub
             </Button>
           </Link>
           <Link href="https://www.apekidsuniverse.com/" className="project-desc-2-btn-text" target="_blank">
             <Button color="primary" auto size={`sm`} >
-              https://www.apekidsuniverse.com/
+              {/* https://www.apekidsuniverse.com/ */} View ApeKidsUniverse
             </Button>
           </Link>
         </div>
@@ -203,7 +208,7 @@ export const Projects1 = () => {
           </div>
           <Link href="https://base2.my/" className="project-desc-2-btn-text" target="_blank">
             <Button color="secondary" auto size={`sm`} >
-              https://base2.my/
+              {/* https://base2.my/ */} View BaseTwo
             </Button>
           </Link>
         </div>
@@ -236,7 +241,7 @@ export const Projects1 = () => {
           </div>
           <Link href="https://autopitonline.com/" className="project-desc-2-btn-text" target="_blank">
             <Button color="primary" auto size={`sm`} >
-              https://autopitonline.com/
+              {/* https://autopitonline.com/ */} View AutoPit
             </Button>
           </Link>
         </div>
@@ -247,11 +252,23 @@ export const Projects1 = () => {
         </div>
 
         <div className={`project-desc-2`}>
-          <h3>blah</h3>
-          <PopoverItem 
-            popover_image="/assets/images/tools-icons/nextjs.png"
-            popover_desc=""
-          />
+          <div className={`project-desc-2-header`}>
+            <h3><HiOutlineFingerPrint className="project-card-icon" />TCLamShop</h3>
+            <span className={`project-desc-2-type`}>Landing</span>
+          </div>
+          <p>Craving for premium imported fruits? TC Lam Fruit Shop got your covered. Sit back and relax, just order through our app and we will get it deliver to your doorsteps within 24 hours.</p>
+
+          <div className={`project-desc-2-icons-container`}>
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/reactjs.png"
+              popover_desc="React – A JavaScript library for building user interfaces"
+            />
+          </div>
+          <Link href="https://tclamshop.my/" className="project-desc-2-btn-text" target="_blank">
+            <Button color="primary" auto size={`sm`} >
+              {/* https://tclamshop.my/ */} View TCLamShop
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -260,11 +277,43 @@ export const Projects1 = () => {
         </div>
 
         <div className={`project-desc-2`}>
-          <h3>blah</h3>
-          <PopoverItem 
-            popover_image="/assets/images/tools-icons/nextjs.png"
-            popover_desc=""
-          />
+          <div className={`project-desc-2-header`}>
+            <h3><HiOutlineFingerPrint className="project-card-icon" />Elysium Plantation Berhad</h3>
+            <span className={`project-desc-2-type`}>Landing</span>
+          </div>
+          <p>Elysium Plantation Berhad was incorporated in Malaysia on 29th August 2022 as a limited company with business commenced in the same year. The Group is principally engaged in the cultivation and processing of eucalyptus plantations. Other businesses include timber logging, research & development.</p>
+
+          <div className={`project-desc-2-icons-container`}>
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/reactjs.png"
+              popover_desc="React – A JavaScript library for building user interfaces"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/reactbootstrap.png"
+              popover_desc="React-Bootstrap - Replaces the Bootstrap JavaScript"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/emailjs.png"
+              popover_desc="EmailJS - Send Email Directly From Your Code"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/antdesign.png"
+              popover_desc="Ant Design - A UI Design Language and React UI library"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/sass_01.png"
+              popover_desc="Sass: Syntactically Awesome Style Sheets"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/sass_01.png"
+              popover_desc="Sass: Syntactically Awesome Style Sheets"
+            />
+          </div>
+          <Link href="https://elysiumberhad.com.my/" className="project-desc-2-btn-text" target="_blank">
+            <Button color="primary" auto size={`sm`} >
+              {/* https://elysiumberhad.com.my/ */} View Elysium
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -273,11 +322,39 @@ export const Projects1 = () => {
         </div>
 
         <div className={`project-desc-2`}>
-          <h3>blah</h3>
-          <PopoverItem 
-            popover_image="/assets/images/tools-icons/nextjs.png"
-            popover_desc=""
-          />
+          <div className={`project-desc-2-header`}>
+            <h3><HiOutlineFingerPrint className="project-card-icon" />UD-Bio Malaysia</h3>
+            <span className={`project-desc-2-type`}>Landing</span>
+          </div>
+          <p>Shenzhen Ultra-Diagnostics Biotec. Co., Ltd. (hereinafter referred to as UD-Bio) was founded in June 2016 and is headquartered in Shenzhen. It is a Shenzhen and National high-tech company engaged in the research, development, production, sales and services of IVD instruments and reagents. UD-Bio dedicates in the comprehensive product line of Thrombus & Hemostasis, Inflammation detection, POCT rapid diagnosis.</p>
+
+          <div className={`project-desc-2-icons-container`}>
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/reactjs.png"
+              popover_desc="React – A JavaScript library for building user interfaces"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/reactbootstrap.png"
+              popover_desc="React-Bootstrap - Replaces the Bootstrap JavaScript"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/emailjs.png"
+              popover_desc="EmailJS - Send Email Directly From Your Code"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/google-analytics.png"
+              popover_desc="Google Analytics - Tracks and reports website traffic"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/google-searchconsole.png"
+              popover_desc="Google Search Console - Monitor Google Search results data"
+            />
+          </div>
+          <Link href="https://ud-bio.com.my/" className="project-desc-2-btn-text" target="_blank">
+            <Button color="primary" auto size={`sm`} >
+              {/* https://ud-bio.com.my/ */} View UD-Bio
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -286,11 +363,23 @@ export const Projects1 = () => {
         </div>
 
         <div className={`project-desc-2`}>
-          <h3>blah</h3>
-          <PopoverItem 
-            popover_image="/assets/images/tools-icons/nextjs.png"
-            popover_desc=""
-          />
+          <div className={`project-desc-2-header`}>
+            <h3><HiOutlineFingerPrint className="project-card-icon" />Bizcentric Elite Financial Expertise</h3>
+            <span className={`project-desc-2-type`}>Landing</span>
+          </div>
+          <p>BIZCENTRIC Group strive to put our best foot forward when partnering ours clients in reaching their goals through producing unique content for Every Property.</p>
+
+          <div className={`project-desc-2-icons-container`}>
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/reactjs.png"
+              popover_desc="React – A JavaScript library for building user interfaces"
+            />
+          </div>
+          <Link href="https://bizcentric.com.my/" className="project-desc-2-btn-text" target="_blank">
+            <Button color="primary" auto size={`sm`} >
+              {/* https://bizcentric.com.my/ */} View Bizcentric
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -299,11 +388,23 @@ export const Projects1 = () => {
         </div>
 
         <div className={`project-desc-2`}>
-          <h3>blah</h3>
-          <PopoverItem 
-            popover_image="/assets/images/tools-icons/nextjs.png"
-            popover_desc=""
-          />
+          <div className={`project-desc-2-header`}>
+            <h3><HiOutlineFingerPrint className="project-card-icon" />Freso Tech</h3>
+            <span className={`project-desc-2-type`}>Landing</span>
+          </div>
+          <p>FRESO TECH is a fast-growing Web & App Development company based in Kuala Lumpur (KL), Malaysia specializing in providing professional website design & development services to small & medium-sized enterprises (SMEs) and corporate companies. With our expertise, we help our clients make their brand stand out, optimize their digital presence, and subsequently grow their business online.</p>
+
+          <div className={`project-desc-2-icons-container`}>
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/reactjs.png"
+              popover_desc="React – A JavaScript library for building user interfaces"
+            />
+          </div>
+          <Link href="https://freso-tech.com/" className="project-desc-2-btn-text" target="_blank">
+            <Button color="primary" auto size={`sm`} >
+              {/* https://bizcentric.com.my/ */} View Freso Tech
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -312,11 +413,23 @@ export const Projects1 = () => {
         </div>
 
         <div className={`project-desc-2`}>
-          <h3>blah</h3>
-          <PopoverItem 
-            popover_image="/assets/images/tools-icons/nextjs.png"
-            popover_desc=""
-          />
+          <div className={`project-desc-2-header`}>
+            <h3><HiOutlineFingerPrint className="project-card-icon" />Happy Arab Shawarma House</h3>
+            <span className={`project-desc-2-type`}>Landing</span>
+          </div>
+          <p>Involved in designing the landing and also developing the landing with Wordpress / DiVi (ElegantThemes).</p>
+
+          <div className={`project-desc-2-icons-container`}>
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/reactjs.png"
+              popover_desc="React – A JavaScript library for building user interfaces"
+            />
+          </div>
+          <Link href="https://www.happyarabshawarma.com/" className="project-desc-2-btn-text" target="_blank">
+            <Button color="primary" auto size={`sm`} >
+              {/* https://bizcentric.com.my/ */} View Happy Arab Shawarma
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -325,11 +438,27 @@ export const Projects1 = () => {
         </div>
 
         <div className={`project-desc-2`}>
-          <h3>blah</h3>
-          <PopoverItem 
-            popover_image="/assets/images/tools-icons/nextjs.png"
-            popover_desc=""
-          />
+          <div className={`project-desc-2-header`}>
+            <h3><HiOutlineFingerPrint className="project-card-icon" />QC Rental</h3>
+            <span className={`project-desc-2-type`}>Landing</span>
+          </div>
+          <p>QC HOLIDAY PREMIUM RENTAL SDN. BHD. strive to creatively provide comprehensive provision with regards to car rental, buying or selling a used car as far as to car mortgage financial service to ease everyone in debt repayment planning especially post MCO stage.</p>
+
+          <div className={`project-desc-2-icons-container`}>
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/reactjs.png"
+              popover_desc="React – A JavaScript library for building user interfaces"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/sass_01.png"
+              popover_desc="Sass: Syntactically Awesome Style Sheets"
+            />
+          </div>
+          <Link href="https://www.qcrental.my/" className="project-desc-2-btn-text" target="_blank">
+            <Button color="primary" auto size={`sm`} >
+              {/* https://bizcentric.com.my/ */} View QC Rental
+            </Button>
+          </Link>
         </div>
       </div>
     </>
