@@ -14,6 +14,7 @@ import '@/styles/Navbar.scss';
 import '@/styles/footer.scss';
 import '@/styles/index.scss';
 import '@/styles/portfolio.scss';
+import '@/styles/aboutme.scss';
 
 export default function App({ Component, pageProps }) {
   // console.log('pageProps',pageProps);

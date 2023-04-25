@@ -18,7 +18,7 @@ export default function Portfolio() {
       <main className={`wrap-portfolio`}>
         <div className={`portfolio-header`}>
           <h1>Showcase of My Projects</h1>
-          <p>This is a showcase of projects I had previously involved in</p>
+          <p>This is a showcase of projects I was previously involved in</p>
         </div>
 
         {/* <div className={`portfolio-container-1`}>

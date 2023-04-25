@@ -265,7 +265,7 @@ export const Projects1 = () => {
             />
           </div>
           <Link href="https://tclamshop.my/" className="project-desc-2-btn-text" target="_blank">
-            <Button color="primary" auto size={`sm`} >
+            <Button color="success" auto size={`sm`} >
               {/* https://tclamshop.my/ */} View TCLamShop
             </Button>
           </Link>
@@ -304,14 +304,35 @@ export const Projects1 = () => {
               popover_image="/assets/images/tools-icons/sass_01.png"
               popover_desc="Sass: Syntactically Awesome Style Sheets"
             />
-            <PopoverItem 
-              popover_image="/assets/images/tools-icons/sass_01.png"
-              popover_desc="Sass: Syntactically Awesome Style Sheets"
-            />
           </div>
           <Link href="https://elysiumberhad.com.my/" className="project-desc-2-btn-text" target="_blank">
-            <Button color="primary" auto size={`sm`} >
+            <Button color="success" auto size={`sm`} >
               {/* https://elysiumberhad.com.my/ */} View Elysium
+            </Button>
+          </Link>
+        </div>
+      </div>
+
+      <div className={`project-card-container`} data-aos="fade-up">
+        <div className={`project-desc-1 bizcentric`}>
+        </div>
+
+        <div className={`project-desc-2`}>
+          <div className={`project-desc-2-header`}>
+            <h3><HiOutlineFingerPrint className="project-card-icon" />Bizcentric Elite Financial Expertise</h3>
+            <span className={`project-desc-2-type`}>Landing</span>
+          </div>
+          <p>BIZCENTRIC Group strive to put our best foot forward when partnering ours clients in reaching their goals through producing unique content for Every Property.</p>
+
+          <div className={`project-desc-2-icons-container`}>
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/reactjs.png"
+              popover_desc="React – A JavaScript library for building user interfaces"
+            />
+          </div>
+          <Link href="https://bizcentric.com.my/" className="project-desc-2-btn-text" target="_blank">
+            <Button color="primary" auto size={`sm`} >
+              {/* https://bizcentric.com.my/ */} View Bizcentric
             </Button>
           </Link>
         </div>
@@ -351,33 +372,8 @@ export const Projects1 = () => {
             />
           </div>
           <Link href="https://ud-bio.com.my/" className="project-desc-2-btn-text" target="_blank">
-            <Button color="primary" auto size={`sm`} >
+            <Button color="success" auto size={`sm`} >
               {/* https://ud-bio.com.my/ */} View UD-Bio
-            </Button>
-          </Link>
-        </div>
-      </div>
-
-      <div className={`project-card-container`} data-aos="fade-up">
-        <div className={`project-desc-1 bizcentric`}>
-        </div>
-
-        <div className={`project-desc-2`}>
-          <div className={`project-desc-2-header`}>
-            <h3><HiOutlineFingerPrint className="project-card-icon" />Bizcentric Elite Financial Expertise</h3>
-            <span className={`project-desc-2-type`}>Landing</span>
-          </div>
-          <p>BIZCENTRIC Group strive to put our best foot forward when partnering ours clients in reaching their goals through producing unique content for Every Property.</p>
-
-          <div className={`project-desc-2-icons-container`}>
-            <PopoverItem 
-              popover_image="/assets/images/tools-icons/reactjs.png"
-              popover_desc="React – A JavaScript library for building user interfaces"
-            />
-          </div>
-          <Link href="https://bizcentric.com.my/" className="project-desc-2-btn-text" target="_blank">
-            <Button color="primary" auto size={`sm`} >
-              {/* https://bizcentric.com.my/ */} View Bizcentric
             </Button>
           </Link>
         </div>
@@ -421,12 +417,16 @@ export const Projects1 = () => {
 
           <div className={`project-desc-2-icons-container`}>
             <PopoverItem 
-              popover_image="/assets/images/tools-icons/reactjs.png"
-              popover_desc="React – A JavaScript library for building user interfaces"
+              popover_image="/assets/images/tools-icons/wordpress.png"
+              popover_desc="WordPress – Free and open-source content management system"
+            />
+            <PopoverItem 
+              popover_image="/assets/images/tools-icons/divi.png"
+              popover_desc="DiVi by ElegentThemes – The Most Popular WordPress Theme"
             />
           </div>
           <Link href="https://www.happyarabshawarma.com/" className="project-desc-2-btn-text" target="_blank">
-            <Button color="primary" auto size={`sm`} >
+            <Button color="warning" auto size={`sm`} >
               {/* https://bizcentric.com.my/ */} View Happy Arab Shawarma
             </Button>
           </Link>

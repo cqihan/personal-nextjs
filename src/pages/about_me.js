@@ -1,11 +1,17 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
-import styles from '@/styles/Home.module.css';
+import { TbCodeCircle2, TbPalette, TbMapPinFilled } from "react-icons/tb";
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function AboutMe() {
+
+  const divs = [];
+  for (let i = 0; i < 300; i++) {
+    divs.push(<div className="firefly" key={i}></div>);
+  }
+
   return (
     <>
       <Head>
@@ -15,11 +21,48 @@ export default function AboutMe() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`wrap-landing `}>
-        <div className={`gradient`}>
+      <main className={`wrap-abtMe `} >
+        {/* <div className={`gradient`}>
+        </div> */}
+        {divs}
 
+        <div className="abtMe-header">
+          <h1>About Me</h1>
         </div>
 
+        <div className="abtMe-content-1" data-aos="fade-left">
+          <h2>Education Background</h2>
+
+          <div>
+            <div className="abtMe-cont-1-item-1" >
+              <p>Graduated with BSc (HONS) in Information Technology with majoring in computer networks and web development. I am passionate about transforming UI/UX designs into functional websites and am currently focused on pursuing a career in front-end web development. I am highly motivated to learn and gain further experience in this field.</p>
+            </div>
+
+            <div className="abtMe-cont-1-item-2 ">
+              <div className="abtMe-cont-1-item-2-1">
+                <h3><TbCodeCircle2 className="abtMe-cont-1-item-2-1-icon" />BSc (HONS) in Information Technology</h3>
+                <p className="abtMe-cont-1-item-2-1-p1"><TbMapPinFilled className="abtMe-cont-1-item-2-1-icon2" />Sunway University</p>
+                <p className="abtMe-cont-1-item-2-1-p2">Majored in Computer Networks & Web Development</p>
+                <p className="abtMe-cont-1-item-2-1-p2">Graduated with 3.25 CGPA</p>
+              </div>
+
+              <div className="abtMe-cont-1-item-2-1">
+                <h3><TbPalette className="abtMe-cont-1-item-2-1-icon" />Foundation in Arts</h3>
+                <p className="abtMe-cont-1-item-2-1-p1"><TbMapPinFilled className="abtMe-cont-1-item-2-1-icon2" />Taylor's University Lakeside Campus</p>
+                <p className="abtMe-cont-1-item-2-1-p2">Took mostly Designing and Architecture subjects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="abtMe-content-1"  data-aos="fade-right">
+          <h2>Working Experience</h2>
+
+          <div className="abtMe-cont-1-item-1 circle-container">
+          <p>Graduated with BSc (HONS) in Information Technology with majoring in computer networks and web development. I am passionate about transforming UI/UX designs into functional websites and am currently focused on pursuing a career in front-end web development. I am highly motivated to learn and gain further experience in this field.</p>
+
+          </div>
+        </div>
       </main>
     </>
   )
