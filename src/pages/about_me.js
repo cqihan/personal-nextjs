@@ -48,7 +48,7 @@ export default function AboutMe() {
 
               <div className="abtMe-cont-1-item-2-1">
                 <h3><TbPalette className="abtMe-cont-1-item-2-1-icon" />Foundation in Arts</h3>
-                <p className="abtMe-cont-1-item-2-1-p1"><TbMapPinFilled className="abtMe-cont-1-item-2-1-icon2" />Taylor's University Lakeside Campus</p>
+                <p className="abtMe-cont-1-item-2-1-p1"><TbMapPinFilled className="abtMe-cont-1-item-2-1-icon2" />Taylor&apos;s University Lakeside Campus</p>
                 <p className="abtMe-cont-1-item-2-1-p2">Took mostly Designing and Architecture subjects</p>
               </div>
             </div>
