@@ -76,23 +76,23 @@ export default function Portfolio() {
             </div>
           </div>
           
-          <div className="port-card-2">
-            <h4>Spice Level (difficulty)</h4>
+          <div className="port-card-2" data-aos="fade-left">
+            <h4 >Spice Level (difficulty)</h4>
 
             <div className="port-card-2-item">
-              <div className="port-card-2-item-1">
+              <div className="port-card-2-item-1" >
                 <AiFillFire className="port-card-2-item-icon1" />
                 Low
               </div>
-              <div className="port-card-2-item-2">
+              <div className="port-card-2-item-2" >
                 <AiFillFire className="port-card-2-item-icon1" />
                 Medium
               </div>
-              <div className="port-card-2-item-3">
+              <div className="port-card-2-item-3" >
                 <AiFillFire className="port-card-2-item-icon1" />
                 Hot
               </div>
-              <div className="port-card-2-item-4">
+              <div className="port-card-2-item-4" >
                 <AiFillFire className="port-card-2-item-icon1" />
                 Extra Hot
               </div>
