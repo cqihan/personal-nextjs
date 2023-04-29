@@ -29,7 +29,7 @@ export default function AboutMe() {
 
         <div className="abtMe-header" >
           <h1 data-aos="fade-down">About Me</h1>
-          <p data-aos="fade-down">Welcome to my personal website! Here, you'll find a wealth of information about my life and experiences. Let me take you on a journey through my past, present, and future.</p>
+          <p data-aos="fade-down">Welcome to my personal website! Here, you&apos;ll find a wealth of information about my life and experiences. Let me take you on a journey through my past, present, and future.</p>
         </div>
 
 
@@ -111,10 +111,10 @@ export default function AboutMe() {
                 <p>Made Electronic Direct Mail (EDM) templates using HTML5/CSS3.</p>
               </div>
               <div className="abtMe-cont-0-item-1-02-01">
-                <p>Manages and fixed clients websites' SEO requirements.</p>
+                <p>Manages and fixed clients websites&apos; SEO requirements.</p>
               </div>
               <div className="abtMe-cont-0-item-1-02-01">
-                <p>Wrote articles for knowledge base used for virtual events' platform which may include instructions and FAQs.</p>
+                <p>Wrote articles for knowledge base used for virtual events&apos; platform which may include instructions and FAQs.</p>
               </div>
               <div className="abtMe-cont-0-item-1-02-01">
                 <p>Helpdesk support for events to serve customers facing difficulties using the virtual event platform.</p>
