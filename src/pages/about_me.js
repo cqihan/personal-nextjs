@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
-import { TbCodeCircle2, TbPalette, TbMapPinFilled } from "react-icons/tb";
+import { TbCodeCircle2, TbPalette, TbMapPinFilled, TbCalendarTime, TbBrandVscode, TbBrandWordpress } from "react-icons/tb";
+import { HiOfficeBuilding } from "react-icons/hi";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,17 +25,121 @@ export default function AboutMe() {
       <main className={`wrap-abtMe `} >
         {/* <div className={`gradient`}>
         </div> */}
-        {divs}
+        {/* {divs} */}
 
-        <div className="abtMe-header">
-          <h1>About Me</h1>
+        <div className="abtMe-header" >
+          <h1 data-aos="fade-down">About Me</h1>
+          <p data-aos="fade-down">Welcome to my personal website! Here, you'll find a wealth of information about my life and experiences. Let me take you on a journey through my past, present, and future.</p>
+        </div>
+
+
+        <div className="abtMe-content-0"  data-aos="fade-right">
+          <h2>Working Experience</h2>
+
+          <div className="abtMe-cont-0-item-1">
+            <div className="abtMe-cont-0-item-1-01">
+              <Image
+                src={`/assets/images/base2-02.png`} alt="working-experience"
+                className="abtMe-cont-0-item-1-img" width={110} height={60}
+              />
+            </div>
+
+            <div className="abtMe-cont-0-item-1-02">
+              <div className="abtMe-cont-0-item-1-02-01">
+                <HiOfficeBuilding className="abtMe-cont-0-item-1-02-01-icon1" />
+                <h3>Base Two</h3>
+                <p>Kuala Lumpur, Malaysia</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <TbCalendarTime className="abtMe-cont-0-item-1-02-01-icon2" />
+                <p>January 2022 - Present</p> <br/>
+                <TbBrandVscode className="abtMe-cont-0-item-1-02-01-icon2" />
+                <p>Front-end Web Developer <br/>(ReactJS/NextJS)</p>
+              </div>
+
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>Developed responsive landing and e-commerce websites using ReactJS, NextJS, HTML5, CSS3, JavaScript, UI Frameworks, Bootstrap, and NPM libraries.</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>Collaborated with back-end developers to develop NFT website with e-commerce using ReactJS and Web3.js.</p>
+                <p>Made Electronic Direct Mail (EDM) templates using HTML5/CSS3.</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>Redesigned existing websites with animations using SASS, CSS3, JavaScript and CSS Animation Libraries.</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>SEO implementations (Google Search Console & Google Analytics) and developed websites based on SEO requirements.</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>RestAPI integration for landing and e-commerce websites.</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>Managed version control for projects with GitHub and Bitbucket.</p>
+              </div>
+              
+            </div>
+          </div>
+
+          <div className="abtMe-cont-0-item-1">
+            <div className="abtMe-cont-0-item-1-01">
+              <Image
+                src={`/assets/images/lu7-01.png`} alt="working-experience"
+                className="abtMe-cont-0-item-1-img" width={190} height={60}
+              />
+            </div>
+
+            <div className="abtMe-cont-0-item-1-02">
+              <div className="abtMe-cont-0-item-1-02-01">
+                <HiOfficeBuilding className="abtMe-cont-0-item-1-02-01-icon1" />
+                <h3>Light Up 7</h3>
+                <p>Kuala Lumpur, Malaysia</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <TbCalendarTime className="abtMe-cont-0-item-1-02-01-icon2" />
+                <p>July 2021 - Dec 2021</p> <br/>
+                <TbBrandWordpress className="abtMe-cont-0-item-1-02-01-icon2" />
+                <p>Web Development Intern <br/>(Divi by ElegantThemes)</p>
+              </div>
+
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>Develop, manage and upgrade websites with WordPress and HTML5/CSS3 and JavaScript.</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>Create templates with designs for new projects in WordPress Theme builder (Divi by ElegantThemes).</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>Made Electronic Direct Mail (EDM) templates using HTML5/CSS3.</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>Manages and fixed clients websites' SEO requirements.</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>Wrote articles for knowledge base used for virtual events' platform which may include instructions and FAQs.</p>
+              </div>
+              <div className="abtMe-cont-0-item-1-02-01">
+                <p>Helpdesk support for events to serve customers facing difficulties using the virtual event platform.</p>
+              </div>
+            </div>
+          </div>
+          
         </div>
 
         <div className="abtMe-content-1" data-aos="fade-left">
-          <h2>Education Background</h2>
+          {/* <h2>Education Background</h2> */}
+          {/* <Image src={`/assets/images/educationbg.png`} alt="personal-education" 
+            width={400} height={400} 
+            className="abtMe-content-1-img"
+          /> */}
+          <div className="abtMe-content-imgcontainer" style={{ width: '80%', height: 0, paddingBottom: '80%', position: 'relative' }}>
+            <Image src={`/assets/images/educationbg.png`} alt="personal-education"
+              className="abtMe-content-1-img"
+              fill cover center
+            />
+          </div>
 
           <div>
             <div className="abtMe-cont-1-item-1" >
+              <h2>My Education History</h2>
               <p>Graduated with BSc (HONS) in Information Technology with majoring in computer networks and web development. I am passionate about transforming UI/UX designs into functional websites and am currently focused on pursuing a career in front-end web development. I am highly motivated to learn and gain further experience in this field.</p>
             </div>
 
@@ -52,15 +157,6 @@ export default function AboutMe() {
                 <p className="abtMe-cont-1-item-2-1-p2">Took mostly Designing and Architecture subjects</p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="abtMe-content-1"  data-aos="fade-right">
-          <h2>Working Experience</h2>
-
-          <div className="abtMe-cont-1-item-1 circle-container">
-          <p>Graduated with BSc (HONS) in Information Technology with majoring in computer networks and web development. I am passionate about transforming UI/UX designs into functional websites and am currently focused on pursuing a career in front-end web development. I am highly motivated to learn and gain further experience in this field.</p>
-
           </div>
         </div>
       </main>

@@ -45,9 +45,16 @@ $transition-2s: all 0.2s ease-in-out;
     text-decoration: none;
     padding: 8px 20px;
     border-radius: 8px;
+
+    &:hover {
+      background-color: rgb(22, 24, 28);
+      // background-color: rgba(0, 99, 124, 0.293);
+    }
     
     &.active {
-      background: rgba(168, 168, 168, 0.2);
+      // background: rgba(168, 168, 168, 0.2);
+      background-color: rgb(22, 24, 28);
+      // background-color: #002832;
     }
   }
 }
