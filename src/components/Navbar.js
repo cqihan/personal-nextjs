@@ -3,6 +3,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import { useRouter } from "next/router";
+import dynamic from 'next/dynamic';
+const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
+  ssr: false
+});
 
 export default function Navbar() {
   const router = useRouter();
@@ -15,6 +19,22 @@ export default function Navbar() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
+
+        
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={35}
+        innerScale={1}
+        outerScale={2}
+        outerAlpha={0}
+        hasBlendMode={true}
+        outerStyle={{
+          border: '3px solid var(--cursor-color)'
+        }}
+        innerStyle={{
+          backgroundColor: 'var(--cursor-color)'
+        }}
+      />
 
       <nav className={`wrap-navbar `}>
 

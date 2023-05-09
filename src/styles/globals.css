@@ -1,5 +1,9 @@
 html {
   scroll-behavior: smooth;
+  --cursor-color: #f8f8f8;
+}
+html.dark-mode {
+  --cursor-color: #f8f8f8;
 }
 
 * {

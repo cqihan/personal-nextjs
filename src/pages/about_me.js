@@ -1,8 +1,9 @@
 import Head from 'next/head';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import { TbCodeCircle2, TbPalette, TbMapPinFilled, TbCalendarTime, TbBrandVscode, TbBrandWordpress } from "react-icons/tb";
 import { HiOfficeBuilding } from "react-icons/hi";
+import { Image } from "@nextui-org/react";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,8 +33,7 @@ export default function AboutMe() {
           <p data-aos="fade-down">Welcome to my personal website! Here, you&apos;ll find a wealth of information about my life and experiences. Let me take you on a journey through my past, present, and future.</p>
         </div>
 
-
-        <div className="abtMe-content-0"  data-aos="fade-right">
+        <div className="abtMe-content-0"  data-aos="fade-up">
           <h2>Working Experience</h2>
 
           <div className="abtMe-cont-0-item-1">
@@ -124,13 +124,13 @@ export default function AboutMe() {
           
         </div>
 
-        <div className="abtMe-content-1" data-aos="fade-left">
+        <div className="abtMe-content-1" data-aos="fade-up">
           {/* <h2>Education Background</h2> */}
           {/* <Image src={`/assets/images/educationbg.png`} alt="personal-education" 
             width={400} height={400} 
             className="abtMe-content-1-img"
           /> */}
-          <div className="abtMe-content-imgcontainer" style={{ width: '80%', height: 0, paddingBottom: '80%', position: 'relative' }}>
+          <div className="abtMe-content-imgcontainer" style={{ width: '85%', height: 0, paddingBottom: '85%', position: 'relative' }}>
             <Image src={`/assets/images/educationbg.png`} alt="personal-education"
               className="abtMe-content-1-img"
               fill cover center
@@ -159,6 +159,44 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
+
+        <div className="abtMe-personality"  data-aos="fade-up">
+          <h2>16 Personality Test</h2>
+
+          <div className="abtMe-personality-container-1">
+            <div className="abtMe-personality-traits">
+              <div className="abtMe-personality-traits-1">
+                <h3>Mind: 59% Introverted</h3>
+                <p>Introverted individuals tend to prefer fewer, yet deep and meaningful, social interactions and often feel drawn to calmer environments.</p>
+              </div>
+              <div className="abtMe-personality-traits-2">
+                <h3>Energy: 70% Intuitive</h3>
+                <p>Intuitive individuals are very imaginative, open-minded, and curious. They value originality and focus on hidden meanings and distant possibilities.</p>
+              </div>
+            </div>
+
+            <Image
+              src="/assets/images/16-personality-01.png"
+              objectFit="cover" 
+              alt="Default Image"
+              width={`100%`}
+              height={`auto`}
+            />
+
+            <div className="abtMe-personality-traits">
+              <div className="abtMe-personality-traits-3">
+                <h3>Nature: 57% Feeling</h3>
+                <p>Feeling individuals value emotional expression and sensitivity. They place a lot of importance on empathy, social harmony, and cooperation.</p>
+              </div>
+              <div className="abtMe-personality-traits-4">
+                <h3>Tactics: 61% Judging</h3>
+                <p>Judging individuals are decisive, thorough, and highly organized. They value clarity, predictability, and closure, preferring structure and planning to spontaneity.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </main>
     </>
   )

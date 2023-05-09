@@ -63,9 +63,9 @@
     background-color: rgba(0, 0, 0, 0.357);
   }
 
-  & .card-icon-type1 {
-    cursor: pointer;
-  }
+  // & .card-icon-type1 {
+  //   cursor: pointer;
+  // }
 }
 
 .port-card-1 {
@@ -198,7 +198,7 @@
   position: relative;
   border-radius: 14px;
   transition: transform 0.3s ease-in-out;
-  cursor: pointer;
+  // cursor: pointer;
   
   & .project-desc-1 {
     width: 100%;
