@@ -3,6 +3,7 @@ import React from "react";
 import '@/styles/globals.css';
 import "@fontsource/varela-round";
 import "@fontsource/montserrat";
+import "@fontsource/libre-bodoni";
 import Navbar from '@/components/Navbar';
 import Footer from "@/components/Footer";
 import { NextUIProvider } from '@nextui-org/react';
@@ -43,7 +44,7 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
         </NextUIProvider>
         <Footer />
-        
+
         <AnimatedCursor
           innerSize={8}
           outerSize={35}
