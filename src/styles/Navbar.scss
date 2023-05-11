@@ -49,13 +49,13 @@ $transition-2s: all 0.2s ease-in-out;
     border-radius: 8px;
 
     &:hover {
-      background-color: rgb(22, 24, 28);
-      // background-color: rgba(0, 99, 124, 0.293);
+      // background-color: rgb(22, 24, 28);
+      background-color: rgb(42, 45, 50);
     }
     
     &.active {
       // background: rgba(168, 168, 168, 0.2);
-      background-color: rgb(22, 24, 28);
+      background-color: rgb(42, 45, 50);
       // background-color: #002832;
     }
   }
