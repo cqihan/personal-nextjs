@@ -71,10 +71,10 @@ export default function Navbar() {
           <Switch 
             checked={theme === 'light' ? false : true}
             onChange={(e) => setTheme(e.target.checked ? 'dark' : 'light')}
-            iconOn={<div className={`theme-container`}>
+            iconOn={<div className={`theme-container light`}>
               <BsFillMoonFill />
             </div>}
-            iconOff={<div className={`theme-container`}>
+            iconOff={<div className={`theme-container dark`}>
               <BsFillSunFill />
             </div>}
           />
