@@ -180,7 +180,7 @@ export default function AboutMe() {
               objectFit="cover" 
               alt="Default Image"
               width={`100%`}
-              height={`auto`}
+              height={`auto`} className={`abtMe-personality-img`}
             />
 
             <div className="abtMe-personality-traits">

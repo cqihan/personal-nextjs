@@ -19,6 +19,10 @@ html.dark-mode {
 }
 
 body {
+  background-color:#fff !important;
+  letter-spacing: normal;
+}
+html.dark-theme body {
   background-color:#000 !important;
   letter-spacing: normal;
 }

@@ -1,8 +1,13 @@
-import Head from 'next/head';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from '@/styles/Home.module.css';
 import { useRouter } from "next/router";
+import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
+// import { useTheme as useNextTheme } from 'next-themes';
+import { Switch, Button, createTheme, NextUIProvider, useTheme } from '@nextui-org/react';
+import { ThemeProvider as NextThemesProvider, useTheme as useNextTheme } from 'next-themes';
+
+
 import dynamic from 'next/dynamic';
 const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
   ssr: false
@@ -10,6 +15,14 @@ const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
 
 export default function Navbar() {
   const router = useRouter();
+
+  // const { theme, setTheme } = useNextTheme();
+  const { theme, setTheme } = useNextTheme();
+  const { isDark, type } = useTheme();
+
+  useEffect(() => {
+    console.log(`Current theme: ${type}`);
+  }, [type]);
 
   return (
     <>
@@ -19,22 +32,6 @@ export default function Navbar() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
-
-        
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={35}
-        innerScale={1}
-        outerScale={2}
-        outerAlpha={0}
-        hasBlendMode={true}
-        outerStyle={{
-          border: '3px solid var(--cursor-color)'
-        }}
-        innerStyle={{
-          backgroundColor: 'var(--cursor-color)'
-        }}
-      />
 
       <nav className={`wrap-navbar `}>
 
@@ -54,7 +51,7 @@ export default function Navbar() {
           <ul className='nav-menu'>
             <li className='nav-item'>
               <Link href='/' className={`${router.pathname == "/" ? "active" : ""} nav-links`} target='_top'>
-                  home
+                  home 
               </Link>
             </li>
 
@@ -70,6 +67,17 @@ export default function Navbar() {
               </Link>
             </li>
           </ul>
+
+          <Switch 
+            checked={theme === 'light' ? false : true}
+            onChange={(e) => setTheme(e.target.checked ? 'dark' : 'light')}
+            iconOn={<div className={`theme-container`}>
+              <BsFillMoonFill />
+            </div>}
+            iconOff={<div className={`theme-container`}>
+              <BsFillSunFill />
+            </div>}
+          />
         </div>
       </nav>
 
