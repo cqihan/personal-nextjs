@@ -106,7 +106,7 @@ export default function Portfolio() {
         </div>
 
         <section className={`portfolio-content-1`}>
-          <h2>Past Projects</h2>
+          {/* <h2>Past Projects</h2> */}
 
           {/* <div className={`portfolio-content-1-container-1`} >
             <Projects1 />
