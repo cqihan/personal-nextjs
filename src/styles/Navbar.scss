@@ -59,6 +59,14 @@ $transition-2s: all 0.2s ease-in-out;
       // background-color: #002832;
     }
   }
+
+  // switch btn
+  // & .nextui-c-STltJ-bwQcWP-color-default {
+    
+  //   &:hover {
+  //     background-color: rgb(255, 255, 255);
+  //   }
+  // }
 }
 .nextui-switch-circle {
   background: #fff !important;
@@ -78,6 +86,10 @@ $transition-2s: all 0.2s ease-in-out;
   }
 }
 
+.nextui-c-itiWTf-bDUxer-checked-true {
+  background-color: rgb(42, 45, 50);
+  opacity: 1;
+}
 
 
 

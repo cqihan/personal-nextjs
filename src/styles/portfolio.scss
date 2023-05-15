@@ -1,11 +1,15 @@
+$box-shadow-tailwind: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+$box-shadow-shopify: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+$box-shadow-facebook: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+$box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 
 .wrap-portfolio {
   width: 100%;
   height: auto;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 0 0 250px;
-  background-color: #000;
+  padding: 0 0 90px;
+  background-color: #FFFFF5;
 }
 
 .portfolio-header {
@@ -47,13 +51,15 @@
 }
 
 .portfolio-container-1 {
-  width: 100%;
+  width: 95%;
+  max-width: 2400px;
   height: auto;
   margin: 0 auto 60px;
-  padding: 0 80px;
+  padding: 0 ;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  background: transparent;
 
   & .nextui-c-BDLTQ {
     --nextui--cardColor: initial !important;
@@ -80,7 +86,9 @@
   justify-content: space-between;
   flex-direction: column;
   border-radius: 14px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: $box-shadow-default !important;
+  
   & > h3 {
     color: #fff;
     padding: 20px;
@@ -172,11 +180,13 @@
   margin: 0 auto;
 
   & h2 {
-    width: 100%;
-    color: #fff;
-    padding: 0 80px;
-    font-size: 20px;
-    margin: 0 auto;
+    width: fit-content;
+    color: #000;
+    padding: 0;
+    margin: 0 auto 10px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold !important;
   }
 }
 
@@ -266,7 +276,7 @@
     & h3 {
       color: #fff;
       font-size: 12px;
-      font-family: "Montserrat" !important;
+      font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       display: flex;
       align-items: center;
@@ -337,9 +347,159 @@
   
 }
 
-.project-card-icon {
+.project-card-icon, .proj2-card-icon {
   color: #ff0000;
   font-size: 20px;
+  margin-right: 10px;
+}
+
+
+// template style 2
+.proj2-card-container {
+  width: 95%;
+  max-width: 2400px;
+  height: auto;
+  margin: 0 auto ;
+  padding: 0;
+  background: transparent;
+  
+}
+
+.proj2-card-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.proj2-card-columns {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  align-self: start;
+}
+
+.proj2-card-item {
+  background: #fff;
+  width: 100%;
+  box-shadow: $box-shadow-default;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+.proj2-desc-1-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+
+  &.ubb {
+    background-position: center;
+    background-image: url('../../public/assets/images/ubb-bgimage-1.png');
+  }
+  &.washla {
+    background-position: left;
+    background-image: url('../../public/assets/images/Washla-bgimage-1.png');
+  }
+  &.quickfix {
+    background-position: right;
+    background-image: url('../../public/assets/images/quickfix-bgimage-1.png');
+  }
+  &.akc {
+    background-position: left;
+    background-image: url('../../public/assets/images/apekidsclub-bgimage-1.png');
+  }
+  &.base2 {
+    background-position: left;
+    background-image: url('../../public/assets/images/base2-bgimage-1.png');
+  }
+  &.autopit {
+    background-position: center;
+    background-image: url('../../public/assets/images/autopit-bgimage-1.png');
+  }
+  &.tclam {
+    background-position: left;
+    background-image: url('../../public/assets/images/tclam-bgimage-1.png');
+  }
+  &.elysium {
+    background-position: right;
+    background-image: url('../../public/assets/images/elysium-bgimage-1.png');
+  }
+  &.udbio {
+    background-position: left;
+    background-image: url('../../public/assets/images/udbio-bgimage-1.png');
+  }
+  &.bizcentric {
+    background-position: left;
+    background-image: url('../../public/assets/images/bizcentric-bgimage-1.png');
+  }
+  &.fresotech {
+    background-position: right;
+    background-image: url('../../public/assets/images/freso-bgimage-1.png');
+  }
+  &.shawarma {
+    background-image: url('../../public/assets/images/shawarma-bgimage-1.png');
+  }
+  &.qcrental {
+    background-image: url('../../public/assets/images/qcrental-bgimage-1.png');
+  }
+}
+.proj2-desc-1-desc {
+  padding: 20px 30px;
+
+  & p {
+    color: #000;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    margin: 0 0 30px;
+  }
+}
+.proj2-desc-1-desc-header {
+  margin: 0 0 10px;
+  display: flex;
+  justify-content: space-between;
+
+  & h3 {
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+  & .proj2-desc-1-type {
+    color: #fff;
+    background-color: rgb(50, 50, 50);
+    height: fit-content;
+    margin: 0;
+    border-radius: 5px;
+    padding: 7px 10px 5px;
+    margin: 0;
+    font-size: 10px;
+    line-height: normal;
+  }
+}
+.proj2-desc-1-desc-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 30px;
+
+  & .nextui-c-iVzbCs {
+    margin: 0;
+  }
+  & .popover-handler {
+    cursor: pointer;
+  }
+}
+.proj2-desc-1-desc-button {
+  display: flex;
+  gap: 20px;
+  & button {
+    padding: 20px 20px;
+  }
 }
 
 
@@ -353,6 +513,15 @@
   100% {
     border-color: #000;
   }
+}
+
+@media screen and (min-width: 1901px) {
+  
+  .proj2-card-item {
+    grid-template-columns: 400px 1fr;
+  }
+}
+@media screen and (max-width: 1440px) {
 }
 
 @media screen and (max-width: 1200px) {
@@ -369,6 +538,25 @@
   .portfolio-content-1-container-1 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  
+  // proj2 template
+  .proj2-card-content {
+    gap: 30px;
+  }
+  .proj2-card-columns {
+    gap: 30px;
+  }
+  .proj2-card-item {
+    grid-template-columns: 1fr ;
+  }
+  .proj2-desc-1-desc p {
+    font-size: 12px;
+  }
+  .proj2-desc-1-bg {
+    min-height: 250px;
+    border-radius: 20px 20px 0 0 ;
+  }
 }
 
 
@@ -377,6 +565,17 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+@media screen and (max-width: 720px) {
+
+  .proj2-card-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
 
 @media screen and (max-width: 576px) {
   .portfolio-header {

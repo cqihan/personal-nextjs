@@ -54,7 +54,7 @@ $box-shadow-1: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8
   height: auto;
   margin: 0 auto 60px;
   padding: 60px 30px;
-  color: #fff;
+  color: #000;
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
@@ -70,7 +70,8 @@ $box-shadow-1: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8
 
 .abtMe-cont-0-item-1 {
   // background-color: #001d24;
-  background-color: rgb(22, 28, 28);
+  // background-color: rgb(22, 28, 28);
+  background-color: rgb(22, 24, 28);
   width: 100%;
   padding: 40px 30px;
   margin-bottom: 20px;

@@ -2,7 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 // import { PersonalCard } from '@/components/CardTemplate_1';
 import { Card, Col, Row, Grid, Text, Popover, Button } from "@nextui-org/react";
-import { Projects1 } from '@/components/Portfolio_Card1';
+// import { Projects1 } from '@/components/Portfolio_Card1';
+import { ProjectsTemplate2 } from '@/components/Portfolio_Card2';
 import { AiFillFire } from "react-icons/ai";
 
 
@@ -80,7 +81,7 @@ export default function Portfolio() {
             </div>
           </div>
           
-          <div className="port-card-2" data-aos="fade-left">
+          {/* <div className="port-card-2" data-aos="fade-left">
             <h4 >Spice Level (difficulty)</h4>
 
             <div className="port-card-2-item">
@@ -101,15 +102,16 @@ export default function Portfolio() {
                 Extra Hot
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <section className={`portfolio-content-1`}>
           <h2>Past Projects</h2>
 
-          <div className={`portfolio-content-1-container-1`} >
+          {/* <div className={`portfolio-content-1-container-1`} >
             <Projects1 />
-          </div>
+          </div> */}
+          <ProjectsTemplate2 />
         </section>
       </main>
     </>

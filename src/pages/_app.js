@@ -19,6 +19,7 @@ import '@/styles/footer.scss';
 import '@/styles/index.scss';
 import '@/styles/portfolio.scss';
 import '@/styles/aboutme.scss';
+import '@/styles/darkthemesettings.scss';
 
 const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
   ssr: false

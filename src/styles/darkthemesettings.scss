@@ -1,0 +1,29 @@
+
+
+// dark theme
+html.dark-theme {
+
+  .abtMe-content-0 {
+    color: #fff;
+  }
+}
+
+html.dark-theme .wrap-portfolio {
+  background-color: #000;
+
+  & .portfolio-content-1 h2 {
+    color: #fff;
+  }
+
+  & .proj2-card-item {
+    background-color: rgb(22, 24, 28);
+  }
+  & .proj2-desc-1-desc-header h3 {
+    color: #fff;
+  }
+  & .proj2-desc-1-desc p {
+    color: #fff;
+  }
+}
+
+
