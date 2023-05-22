@@ -57,7 +57,7 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   margin: 0 auto 60px;
   padding: 0 ;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr ;
   gap: 30px;
   background: transparent;
 
@@ -76,11 +76,11 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
 
 .port-card-1 {
   width: 100%;
-  height: 400px;
+  height: 500px;
   // background: linear-gradient(45deg, #4e0000, #070d55);
   background-image: url('../../public/assets/images/bgimage-03.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom center;
   background-size: cover;
   display: flex;
   justify-content: space-between;

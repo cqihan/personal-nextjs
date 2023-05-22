@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useRouter } from "next/router";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 // import { useTheme as useNextTheme } from 'next-themes';
-import { Switch, Button, createTheme, NextUIProvider, useTheme } from '@nextui-org/react';
+import { Switch, Dropdown, useTheme } from '@nextui-org/react';
 import { ThemeProvider as NextThemesProvider, useTheme as useNextTheme } from 'next-themes';
 
 
@@ -78,45 +78,29 @@ export default function Navbar() {
               <BsFillSunFill />
             </div>}
           />
+
+          <Dropdown placement="bottom-right">
+            <Dropdown.Button className="nav-mob-dropdown"></Dropdown.Button>
+            <Dropdown.Menu aria-label="Static Actions" className="nav-mob-dropdown-menu">
+              <Dropdown.Item to="/" key="home" className="nav-mob-dropdown-item">
+                <Link href='/' className={`${router.pathname == "/" ? "active" : ""} nav-links`} target='_top'>
+                    home
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item key="about" className="nav-mob-dropdown-item">
+                <Link href='/about_me' className={`${router.pathname == "/about_me" ? "active" : ""} nav-links`} target='_top'>
+                    about me
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item key="portfolio" className="nav-mob-dropdown-item">
+                <Link href='/portfolio' className={`${router.pathname == "/portfolio" ? "active" : ""} nav-links`} target='_top'>
+                    portfolio
+                </Link>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         </div>
       </nav>
-
-      {/* <nav className={`wrap-navbar-mobile `}>
-
-        <div className="navbar-container">
-          <div className="logo-container">
-            <Link href='/' className="navbar-logo" target='_parent'>
-              <Image
-                src="/assets/images/cqihan-03.png"
-                alt="Vercel Logo"
-                width={150}
-                height={70}
-                priority
-              />
-            </Link>
-          </div>
-
-          <ul className='nav-menu'>
-            <li className='nav-item'>
-              <Link href='/' className={`${router.pathname == "/" ? "active" : ""} nav-links`} target='_top'>
-                  home
-              </Link>
-            </li>
-
-            <li className='nav-item'>
-              <Link href='/about_me' className={`${router.pathname == "/about_me" ? "active" : ""} nav-links`} target='_top'>
-                  about me
-              </Link>
-            </li>
-
-            <li className='nav-item'>
-              <Link href='/portfolio' className={`${router.pathname == "/portfolio" ? "active" : ""} nav-links`} target='_top'>
-                  portfolio
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav> */}
     </>
   )
 }
