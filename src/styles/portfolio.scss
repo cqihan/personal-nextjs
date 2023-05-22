@@ -349,7 +349,7 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
 
 .project-card-icon, .proj2-card-icon {
   color: #ff0000;
-  font-size: 20px;
+  font-size: 30px;
   margin-right: 10px;
 }
 
@@ -527,6 +527,9 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   }
 }
 @media screen and (max-width: 1440px) {
+  .proj2-card-columns {
+    gap: 30px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -544,13 +547,14 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  
+
   // proj2 template
   .proj2-card-content {
     gap: 30px;
   }
   .proj2-card-columns {
     gap: 30px;
+    grid-template-columns: 1fr 1fr;
   }
   .proj2-card-item {
     grid-template-columns: 1fr ;
@@ -629,5 +633,8 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   }
   .proj2-desc-1-desc-header h3 {
     font-size: 14px;
+  }
+  .nextui-popover-content-enter {
+    width: fit-content;
   }
 }

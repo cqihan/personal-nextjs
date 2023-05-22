@@ -33,10 +33,10 @@ export default function AboutMe() {
           <p data-aos="fade-down">Welcome to my personal website! Here, you&apos;ll find a wealth of information about my life and experiences. Let me take you on a journey through my past, present, and future.</p>
         </div>
 
-        <div className="abtMe-content-0"  data-aos="fade-up">
+        <div className="abtMe-content-0" >
           <h2>Working Experience</h2>
 
-          <div className="abtMe-cont-0-item-1">
+          <div className="abtMe-cont-0-item-1" data-aos="fade-up">
             <div className="abtMe-cont-0-item-1-01">
               <Image
                 src={`/assets/images/base2-02.png`} alt="working-experience"
@@ -80,7 +80,7 @@ export default function AboutMe() {
             </div>
           </div>
 
-          <div className="abtMe-cont-0-item-1">
+          <div className="abtMe-cont-0-item-1" data-aos="fade-up">
             <div className="abtMe-cont-0-item-1-01">
               <Image
                 src={`/assets/images/lu7-01.png`} alt="working-experience"

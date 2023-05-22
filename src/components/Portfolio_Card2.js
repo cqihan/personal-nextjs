@@ -141,6 +141,50 @@ export const ProjectsTemplate2 = () => {
             </div>
 
             <div className={`proj2-card-item`} data-aos="fade-up">
+              <div className={`proj2-desc-1-bg quickfix`}>
+              </div>
+
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />QuickFix DIY </h3>
+                  <span className={`proj2-desc-1-type`}>Landing</span>
+                </div>                
+                <p>With 30 years of experience, QuickFix - The Most Complete Hardware Shop provides DIY hardware products for Home & Living where customers are able to browse everything online!</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/nextjs.png"
+                    popover_desc="Next.js by Vercel - The React Framework"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/reactbootstrap.png"
+                    popover_desc="React-Bootstrap - Replaces the Bootstrap JavaScript"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/emailjs.png"
+                    popover_desc="EmailJS - Send Email Directly From Your Code"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/google-analytics.png"
+                    popover_desc="Google Analytics - Tracks and reports website traffic"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/google-searchconsole.png"
+                    popover_desc="Google Search Console - Monitor Google Search results data"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://quickfixdiy.com.my/" className="project-desc-2-btn-text" target="_blank">
+                    <Button color="error" auto size={`sm`} >
+                      {/* https://quickfixdiy.com.my/ */} View QuickFix DIY
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className={`proj2-card-item`} data-aos="fade-up">
               <div className={`proj2-desc-1-bg elysium`}>
               </div>
 
@@ -178,6 +222,54 @@ export const ProjectsTemplate2 = () => {
                   <Link href="https://elysiumberhad.com.my/" className="project-desc-2-btn-text" target="_blank">
                     <Button color="success" auto size={`sm`} >
                       {/* https://elysiumberhad.com.my/ */} View Elysium
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className={`proj2-card-item`} data-aos="fade-up">
+              <div className={`proj2-desc-1-bg base2`}>
+              </div>
+
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Base Two</h3>
+                  <span className={`proj2-desc-1-type`}>Landing</span>
+                </div>                
+                <p>Base Two is a full-service app development company that provides app development, design and consulting services for those who want to be successful. Based in Kuala Lumpur, Base Two is a unique blend of creative designers, tech savvy developers and awesome project managers.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/reactjs.png"
+                    popover_desc="React – A JavaScript library for building user interfaces"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/reactbootstrap.png"
+                    popover_desc="React-Bootstrap - Replaces the Bootstrap JavaScript"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/emailjs.png"
+                    popover_desc="EmailJS - Send Email Directly From Your Code"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/google-analytics.png"
+                    popover_desc="Google Analytics - Tracks and reports website traffic"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/google-searchconsole.png"
+                    popover_desc="Google Search Console - Monitor Google Search results data"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/semrush.png"
+                    popover_desc="Semrush - For SEO, PPC, SMM and Content"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://base2.my/" className="project-desc-2-btn-text" target="_blank">
+                    <Button color="secondary" auto size={`sm`} >
+                      {/* https://base2.my/ */} View BaseTwo
                     </Button>
                   </Link>
                 </div>
@@ -256,50 +348,6 @@ export const ProjectsTemplate2 = () => {
               </div>
             </div>
 
-          <div className={`proj2-card-item`} data-aos="fade-up">
-              <div className={`proj2-desc-1-bg quickfix`}>
-              </div>
-
-              <div className={`proj2-desc-1-desc`}>
-                <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />QuickFix DIY </h3>
-                  <span className={`proj2-desc-1-type`}>Landing</span>
-                </div>                
-                <p>With 30 years of experience, QuickFix - The Most Complete Hardware Shop provides DIY hardware products for Home & Living where customers are able to browse everything online!</p>
-
-                <div className={`proj2-desc-1-desc-icons`}>
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/nextjs.png"
-                    popover_desc="Next.js by Vercel - The React Framework"
-                  />
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/reactbootstrap.png"
-                    popover_desc="React-Bootstrap - Replaces the Bootstrap JavaScript"
-                  />
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/emailjs.png"
-                    popover_desc="EmailJS - Send Email Directly From Your Code"
-                  />
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/google-analytics.png"
-                    popover_desc="Google Analytics - Tracks and reports website traffic"
-                  />
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/google-searchconsole.png"
-                    popover_desc="Google Search Console - Monitor Google Search results data"
-                  />
-                </div>
-
-                <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://quickfixdiy.com.my/" className="project-desc-2-btn-text" target="_blank">
-                    <Button color="error" auto size={`sm`} >
-                      {/* https://quickfixdiy.com.my/ */} View QuickFix DIY
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
             <div className={`proj2-card-item`} data-aos="fade-up">
               <div className={`proj2-desc-1-bg akc`}>
               </div>
@@ -330,51 +378,7 @@ export const ProjectsTemplate2 = () => {
                   </Link>
                   <Link href="https://www.apekidsuniverse.com/" className="project-desc-2-btn-text" target="_blank">
                     <Button color="primary" auto size={`sm`} >
-                      {/* https://www.apekidsuniverse.com/ */} View ApeKidsUniverse
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className={`proj2-card-item`} data-aos="fade-up">
-              <div className={`proj2-desc-1-bg base2`}>
-              </div>
-
-              <div className={`proj2-desc-1-desc`}>
-                <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Base Two</h3>
-                  <span className={`proj2-desc-1-type`}>Landing</span>
-                </div>                
-                <p>Base Two is a full-service app development company that provides app development, design and consulting services for those who want to be successful. Based in Kuala Lumpur, Base Two is a unique blend of creative designers, tech savvy developers and awesome project managers.</p>
-
-                <div className={`proj2-desc-1-desc-icons`}>
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/reactjs.png"
-                    popover_desc="React – A JavaScript library for building user interfaces"
-                  />
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/reactbootstrap.png"
-                    popover_desc="React-Bootstrap - Replaces the Bootstrap JavaScript"
-                  />
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/emailjs.png"
-                    popover_desc="EmailJS - Send Email Directly From Your Code"
-                  />
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/google-analytics.png"
-                    popover_desc="Google Analytics - Tracks and reports website traffic"
-                  />
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/google-searchconsole.png"
-                    popover_desc="Google Search Console - Monitor Google Search results data"
-                  />
-                </div>
-
-                <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://base2.my/" className="project-desc-2-btn-text" target="_blank">
-                    <Button color="secondary" auto size={`sm`} >
-                      {/* https://base2.my/ */} View BaseTwo
+                      {/* https://www.apekidsuniverse.com/ */} View Roadmap
                     </Button>
                   </Link>
                 </div>

@@ -66,6 +66,12 @@ export default function Navbar() {
                   portfolio
               </Link>
             </li>
+
+            {/* <li className='nav-item'>
+              <Link href='#' className={`${router.pathname == "/food_review" ? "active" : ""} nav-links`} target='_top'>
+                  food
+              </Link>
+            </li> */}
           </ul>
 
           <Switch 
@@ -97,6 +103,11 @@ export default function Navbar() {
                     portfolio
                 </Link>
               </Dropdown.Item>
+              {/* <Dropdown.Item key="portfolio" className="nav-mob-dropdown-item">
+                <Link href='#' className={`${router.pathname == "/food" ? "active" : ""} nav-links`} target='_top'>
+                    food
+                </Link>
+              </Dropdown.Item> */}
             </Dropdown.Menu>
           </Dropdown>
         </div>
