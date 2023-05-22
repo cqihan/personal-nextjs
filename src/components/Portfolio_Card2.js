@@ -256,17 +256,13 @@ export const ProjectsTemplate2 = () => {
               </div>
             </div>
 
-          </div>
-
-
-          <div className={`proj2-card-columns`}>
           <div className={`proj2-card-item`} data-aos="fade-up">
               <div className={`proj2-desc-1-bg quickfix`}>
               </div>
 
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />QuickFix DIY Hardware Home & Living</h3>
+                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />QuickFix DIY </h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>With 30 years of experience, QuickFix - The Most Complete Hardware Shop provides DIY hardware products for Home & Living where customers are able to browse everything online!</p>
@@ -391,7 +387,7 @@ export const ProjectsTemplate2 = () => {
 
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Bizcentric Elite Financial Expertise</h3>
+                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Bizcentric  </h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>BIZCENTRIC Group strive to put our best foot forward when partnering ours clients in reaching their goals through producing unique content for Every Property.</p>

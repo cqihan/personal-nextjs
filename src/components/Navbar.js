@@ -82,7 +82,7 @@ export default function Navbar() {
           <Dropdown placement="bottom-right">
             <Dropdown.Button className="nav-mob-dropdown"></Dropdown.Button>
             <Dropdown.Menu aria-label="Static Actions" className="nav-mob-dropdown-menu">
-              <Dropdown.Item to="/" key="home" className="nav-mob-dropdown-item">
+              <Dropdown.Item key="home" className="nav-mob-dropdown-item">
                 <Link href='/' className={`${router.pathname == "/" ? "active" : ""} nav-links`} target='_top'>
                     home
                 </Link>

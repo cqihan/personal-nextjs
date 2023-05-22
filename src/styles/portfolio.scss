@@ -368,16 +368,16 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
 .proj2-card-content {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 50px;
 }
 
 .proj2-card-columns {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
-  align-self: start;
+  align-items: start;
 }
 
 .proj2-card-item {
@@ -386,15 +386,16 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   box-shadow: $box-shadow-default;
   border-radius: 20px;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 1fr;
 }
 .proj2-desc-1-bg {
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 20px 0 0 20px;
+  border-radius: 20px 20px 0 0 ;
 
   &.ubb {
     background-position: center;
@@ -498,6 +499,7 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   display: flex;
   gap: 20px;
   & button {
+    font-size: 12px;
     padding: 20px 20px;
   }
 }
@@ -518,7 +520,10 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
 @media screen and (min-width: 1901px) {
   
   .proj2-card-item {
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 1fr;
+  }
+  .proj2-desc-1-bg {
+    height: 350px;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -574,6 +579,17 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
     grid-template-columns: 1fr;
     gap: 20px;
   }
+
+  .proj2-card-columns {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .proj2-desc-1-desc p {
+    font-size: 10px;
+  }
+  .proj2-desc-1-desc-header h3 {
+    font-size: 16px;
+  }
 }
 
 
@@ -606,5 +622,12 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   .project-card-container .project-desc-2 .project-desc-2-icons-container .nextui-c-iVzbCs {
     width: 25px !important;
     height: 25px !important;
+  }
+
+  .proj2-desc-1-desc {
+    padding: 20px;
+  }
+  .proj2-desc-1-desc-header h3 {
+    font-size: 14px;
   }
 }
