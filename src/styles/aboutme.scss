@@ -62,23 +62,26 @@ $box-shadow-1: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8
 
   & h2 {
     width: 100%;
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: 700;
   }
 }
 
 .abtMe-cont-0-item-1 {
   // background-color: #001d24;
-  // background-color: rgb(22, 28, 28);
-  background-color: rgb(22, 24, 28);
+  // background-color: rgb(22, 24, 28);
+  background:  url('/assets/images/aboutme-bg01.png') ;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-size: cover;
   width: 100%;
-  padding: 40px 30px;
+  padding: 60px 30px;
   margin-bottom: 20px;
   border-radius: 20px;
   display: grid;
   grid-template-columns: 280px 1fr;
   gap: 60px;
+  box-shadow: $box-shadow-1;
 
   & .abtMe-cont-0-item-1-01 {
     display: flex;
@@ -88,7 +91,7 @@ $box-shadow-1: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8
   & .abtMe-cont-0-item-1-02 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 25px;
     text-align: center;
 
     & h3 {
@@ -104,9 +107,11 @@ $box-shadow-1: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8
 
   & .abtMe-cont-0-item-1-02-01 {
     color: #001d24;
-    background-color: #FFFFFA;
+    // background-color: #FFFFFA;
+    background-color: rgba(250, 254, 255, 1);
+    backdrop-filter: blur(8px);
     padding: 30px 30px 20px;
-    border-radius: 20px;
+    border-radius: 40px;
     letter-spacing: normal;
     line-height: normal;
     display: flex;
@@ -161,8 +166,9 @@ $box-shadow-1: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8
   border-radius: 20px;
 }
 .abtMe-cont-1-item-1 {
-  background-color: rgb(22, 24, 28);
+  // background-color: rgb(22, 24, 28);
   // background-color: #001d24;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(22, 24, 28,1) 100%);
   width: 100%;
   padding: 40px 30px;
   margin-bottom: 20px;
@@ -181,7 +187,8 @@ $box-shadow-1: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8
   gap: 20px;
 
   & .abtMe-cont-1-item-2-1 {
-    background-color: rgb(22, 24, 28);
+    // background-color: rgb(22, 24, 28);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(22, 24, 28,1) 100%);
     // background-color: #001d24;
     padding: 30px;
     border-radius: 20px;
@@ -298,7 +305,7 @@ $box-shadow-1: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8
     & .abtMe-cont-0-item-1-02 {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 30px;
+      gap: 25px;
       text-align: center;
 
       & h3 {

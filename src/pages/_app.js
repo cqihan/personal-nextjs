@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import React from "react";
 import '@/styles/globals.css';
 import "@fontsource/varela-round";
-import "@fontsource/montserrat";
+import '@fontsource-variable/montserrat';
 import "@fontsource/libre-bodoni";
 import Navbar from '@/components/Navbar';
 import Footer from "@/components/Footer";
