@@ -505,6 +505,38 @@ export const ProjectsTemplate2 = () => {
               </div>
             </div>
 
+            <div className={`proj2-card-item`} data-aos="fade-up">
+              <div className={`proj2-desc-1-bg onepgtemplate`}>
+              </div>
+
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Template</h3>
+                  <span className={`proj2-desc-1-type`}>Landing</span>
+                </div>                
+                <p>This is a mini template I made early 2022 for a normal 1 page landing, everything displayed here is just a sample placeholder. An fade up animation is also included inside the template made with javascript.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/reactjs.png"
+                    popover_desc="React – A JavaScript library for building user interfaces"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/sass_01.png"
+                    popover_desc="Sass: Syntactically Awesome Style Sheets"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://lively-syrniki-5a78c4.netlify.app/" className="project-desc-2-btn-text" target="_blank">
+                    <Button color="warning" auto size={`sm`} >
+                      View Template
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
