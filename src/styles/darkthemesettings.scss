@@ -3,8 +3,20 @@
 // dark theme
 html.dark-theme {
 
-  .abtMe-content-0 {
+  & .abtMe-content-0 {
     color: #fff;
+  }
+  
+  & .abtMe-personality {
+    & h2 {
+      color: #fff;
+    }
+  }
+
+  & .abtMe-spotify {
+    & > h2 {
+      color: #fff;
+    }
   }
 }
 

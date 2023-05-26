@@ -1,9 +1,11 @@
 import Head from 'next/head';
 // import Image from 'next/image';
+import Link from 'next/link';
 import { Inter } from 'next/font/google';
 import { TbCodeCircle2, TbPalette, TbMapPinFilled, TbCalendarTime, TbBrandVscode, TbBrandWordpress } from "react-icons/tb";
 import { HiOfficeBuilding } from "react-icons/hi";
 import { Image } from "@nextui-org/react";
+import { SiSpotify } from "react-icons/si";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -191,6 +193,51 @@ export default function AboutMe() {
               <div className="abtMe-personality-traits-4">
                 <h3>Tactics: 61% Judging</h3>
                 <p>Judging individuals are decisive, thorough, and highly organized. They value clarity, predictability, and closure, preferring structure and planning to spontaneity.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div className="abtMe-spotify"  data-aos="fade-up">
+          <h2>My Spotify Mixtapes</h2>
+
+          <div className="abtMe-spotify-content-1">
+            <div className="abtMe-spotify-item-1 mixtape1">
+              <Link href="https://open.spotify.com/playlist/47V85YlHyaXNTkuuhnhxwQ?si=6c846f9a4a314fd4" target="_blank" className="abtMe-spotify-item-1-img">
+                <Image src={`/assets/images/spotify/kaguya-01.jpg`} alt="aboutme" 
+                  width={120} height={120} 
+                  className=""
+                /> 
+              </Link>
+
+              <div className="abtMe-spotify-item-1-info">
+                <div>
+                  <h3>わからない</h3>
+                  <p>Fav Japanese Songs</p>
+                </div>
+                <Link href="https://open.spotify.com/playlist/47V85YlHyaXNTkuuhnhxwQ?si=6c846f9a4a314fd4" className="abtMe-spotify-item-1-info-icon" target="_blank" rel="noopener noreferrer">
+                  <SiSpotify />
+                </Link>
+              </div>
+            </div>
+
+            <div className="abtMe-spotify-item-1 mixtape2">
+              <Link href="https://open.spotify.com/playlist/7m8zxeHbNTFRNs6t7WPz2a?si=ba53f2ecb0e24830" target="_blank" className="abtMe-spotify-item-1-img">
+                <Image src={`/assets/images/spotify/redvelvet-irene-8.png`} alt="aboutme" 
+                  width={120} height={120} 
+                  className=""
+                /> 
+              </Link>
+
+              <div className="abtMe-spotify-item-1-info">
+                <div>
+                  <h3>kdrama OST</h3>
+                  <p>Korean Drama Sound Tracks</p>
+                </div>
+                <Link href="https://open.spotify.com/playlist/7m8zxeHbNTFRNs6t7WPz2a?si=ba53f2ecb0e24830" className="abtMe-spotify-item-1-info-icon" target="_blank" rel="noopener noreferrer">
+                  <SiSpotify />
+                </Link>
               </div>
             </div>
 
