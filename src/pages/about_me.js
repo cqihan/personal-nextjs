@@ -224,7 +224,7 @@ export default function AboutMe() {
 
             <div className="abtMe-spotify-item-1 mixtape2">
               <Link href="https://open.spotify.com/playlist/7m8zxeHbNTFRNs6t7WPz2a?si=ba53f2ecb0e24830" target="_blank" className="abtMe-spotify-item-1-img">
-                <Image src={`/assets/images/spotify/redvelvet-irene-8.png`} alt="aboutme" 
+                <Image src={`/assets/images/spotify/redvelvet-irene-8.PNG`} alt="aboutme" 
                   width={120} height={120} 
                   className=""
                 /> 
