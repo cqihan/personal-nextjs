@@ -113,6 +113,114 @@ export default function Portfolio() {
           </div> */}
           <ProjectsTemplate2 />
         </section>
+
+        <section className={`portfolio-content-2`}>
+          <h2 data-aos="fade-up">My Skills</h2>
+
+          <h3 data-aos="fade-up">Frameworks and Styling</h3>
+          <div className="port-skl-1">
+            <div className="port-skl-item-1 nextjs" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/nextjs.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>NextJS</h3>
+                  <p>Usage: Web Front-end</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="port-skl-item-1 reactjs" data-aos="fade-up"> 
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/reactjs.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>ReactJS</h3>
+                  <p>Usage: Web Front-end</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="port-skl-item-1 sass" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/sass_01.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>SASS/SCSS</h3>
+                  <p>Usage: Styling content</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="port-skl-item-1 tailwind" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/tailwindcss.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>TailwindCSS</h3>
+                  <p>Usage: Styling content</p>
+                  <p>I dont really like using this</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 data-aos="fade-up">CSS Frameworks</h3>
+          <div className="port-skl-1">
+            <div className="port-skl-item-1 reactjs" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/reactbootstrap.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>React Bootstrap</h3>
+                  <p>React-Bootstrap - Replaces the Bootstrap JavaScript</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 antdesign" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/antdesign.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>Ant Design</h3>
+                  <p>Ant Design - A UI Design Language and React UI library</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 evergreen" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/evergreen.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>Evergreen</h3>
+                  <p>Evergreen - React UI Framework for building ambitious products on the web</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
       </main>
     </>
   )
