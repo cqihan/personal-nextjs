@@ -171,7 +171,7 @@ export default function Portfolio() {
                 <div>
                   <h3>TailwindCSS</h3>
                   <p>Usage: Styling content</p>
-                  <p>I dont really like using this</p>
+                  <p>I dont really like to use tailwind</p>
                 </div>
               </div>
             </div>
