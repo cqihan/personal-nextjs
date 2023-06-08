@@ -55,7 +55,7 @@ export const ProjectsTemplate2 = () => {
                         {/* https://login.ubbib.io/  */} View UBB CRM
                     </Button>
                   </Link>
-                  <Link href="https://ubbib.io/" className="proj2-desc-1-btn-text" target="_blank">
+                  <Link href="https://www.ubbib.io/" className="proj2-desc-1-btn-text" target="_blank">
                     <Button color="error" auto size={`sm`} >
                         {/* https://login.ubbib.io/  */} View UBB Landing
                     </Button>
@@ -91,7 +91,7 @@ export const ProjectsTemplate2 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://autopitonline.com/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://www.autopitonline.com/" className="project-desc-2-btn-text" target="_blank">
                     <Button color="primary" auto size={`sm`} >
                       {/* https://autopitonline.com/ */} View AutoPit
                     </Button>
