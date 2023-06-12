@@ -116,6 +116,7 @@ export default function Portfolio() {
 
         <section className={`portfolio-content-2`}>
           <h2 data-aos="fade-up">My Skills</h2>
+          <p data-aos="fade-up">This section is about the tools I used and why I use them</p>
 
           <h3 data-aos="fade-up">Frameworks and Styling</h3>
           <div className="port-skl-1">
@@ -128,7 +129,7 @@ export default function Portfolio() {
               <div className="port-skl-item-1-info">
                 <div>
                   <h3>NextJS</h3>
-                  <p>Usage: Web Front-end</p>
+                  <p>- To build landing / ecommerce / crm frontend projects</p>
                 </div>
               </div>
             </div>
@@ -142,7 +143,7 @@ export default function Portfolio() {
               <div className="port-skl-item-1-info">
                 <div>
                   <h3>ReactJS</h3>
-                  <p>Usage: Web Front-end</p>
+                  <p>- To build landing / ecommerce frontend projects</p>
                 </div>
               </div>
             </div>
@@ -156,7 +157,7 @@ export default function Portfolio() {
               <div className="port-skl-item-1-info">
                 <div>
                   <h3>SASS/SCSS</h3>
-                  <p>Usage: Styling content</p>
+                  <p>- To style frontend for more flexibility with some animations</p>
                 </div>
               </div>
             </div>
@@ -170,51 +171,233 @@ export default function Portfolio() {
               <div className="port-skl-item-1-info">
                 <div>
                   <h3>TailwindCSS</h3>
-                  <p>Usage: Styling content</p>
-                  <p>I dont really like to use tailwind</p>
+                  <p>- To style frontend inside classes</p>
+                  <p>PS: I dont really like to use tailwind, felt messy</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <h3 data-aos="fade-up">CSS Frameworks</h3>
+          <div className="port-skl-2">
+            <div className="port-skl-2-1">
+              <h3 data-aos="fade-up">Content Management System</h3>
+              <div>
+                <div className="port-skl-item-1 wordpress" data-aos="fade-up">
+                  <div className="port-skl-item-1-img">
+                    <Image src={`/assets/images/tools-icons/wordpress.png`} alt="portfolio" 
+                      width={100} height={100}
+                    /> 
+                  </div>
+                  <div className="port-skl-item-1-info">
+                    <div>
+                      <h3>Wordpress</h3>
+                      <p>- Landing/E-commerce</p>
+                      <p>- Manage & optimize SEO</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="port-skl-item-1 divi" data-aos="fade-up">
+                  <div className="port-skl-item-1-img">
+                    <Image src={`/assets/images/tools-icons/divi.png`} alt="portfolio" 
+                      width={100} height={100}
+                    /> 
+                  </div>
+                  <div className="port-skl-item-1-info">
+                    <div>
+                      <h3>Divi by ElegantThemes</h3>
+                      <p>- A Themebuilder with wide range of drag and drop components</p>
+                      <p>- Easy to use</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="port-skl-2-1">
+              <h3 data-aos="fade-up">CSS Frameworks</h3>
+              <div>
+                <div className="port-skl-item-1 reactjs" data-aos="fade-up">
+                  <div className="port-skl-item-1-img">
+                    <Image src={`/assets/images/tools-icons/reactbootstrap.png`} alt="portfolio" 
+                      width={100} height={100}
+                    /> 
+                  </div>
+                  <div className="port-skl-item-1-info">
+                    <div>
+                      <h3>React Bootstrap</h3>
+                      <p>- To build modals / carousels / accordions quicker</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="port-skl-item-1 antdesign" data-aos="fade-up">
+                  <div className="port-skl-item-1-img">
+                    <Image src={`/assets/images/tools-icons/antdesign.png`} alt="portfolio" 
+                      width={100} height={100}
+                    /> 
+                  </div>
+                  <div className="port-skl-item-1-info">
+                    <div>
+                      <h3>Ant Design</h3>
+                      <p>- To build modals / carousels / accordions / notifications / image-preview quicker</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="port-skl-item-1 evergreen" data-aos="fade-up">
+                  <div className="port-skl-item-1-img">
+                    <Image src={`/assets/images/tools-icons/evergreen.png`} alt="portfolio" 
+                      width={100} height={100}
+                    /> 
+                  </div>
+                  <div className="port-skl-item-1-info">
+                    <div>
+                      <h3>Evergreen</h3>
+                      <p>- To build modals / carousels / accordions / notifications / image-preview quicker</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 data-aos="fade-up">SEO</h3>
           <div className="port-skl-1">
-            <div className="port-skl-item-1 reactjs" data-aos="fade-up">
+            <div className="port-skl-item-1 google" data-aos="fade-up">
               <div className="port-skl-item-1-img">
-                <Image src={`/assets/images/tools-icons/reactbootstrap.png`} alt="portfolio" 
+                <Image src={`/assets/images/tools-icons/google-tagmanager.png`} alt="portfolio" 
                   width={100} height={100}
                 /> 
               </div>
               <div className="port-skl-item-1-info">
                 <div>
-                  <h3>React Bootstrap</h3>
-                  <p>React-Bootstrap - Replaces the Bootstrap JavaScript</p>
+                  <h3>Google Tag Manager</h3>
+                  <p>- Setup Google SEO tools</p>
+                  <p>PS: I need more experience</p>
                 </div>
               </div>
             </div>
-            <div className="port-skl-item-1 antdesign" data-aos="fade-up">
+            <div className="port-skl-item-1 google" data-aos="fade-up">
               <div className="port-skl-item-1-img">
-                <Image src={`/assets/images/tools-icons/antdesign.png`} alt="portfolio" 
+                <Image src={`/assets/images/tools-icons/google-analytics.png`} alt="portfolio" 
                   width={100} height={100}
                 /> 
               </div>
               <div className="port-skl-item-1-info">
                 <div>
-                  <h3>Ant Design</h3>
-                  <p>Ant Design - A UI Design Language and React UI library</p>
+                  <h3>Google Analytics</h3>
+                  <p>- Monitor websites traffics and analytics</p>
                 </div>
               </div>
             </div>
-            <div className="port-skl-item-1 evergreen" data-aos="fade-up">
+            <div className="port-skl-item-1 google" data-aos="fade-up">
               <div className="port-skl-item-1-img">
-                <Image src={`/assets/images/tools-icons/evergreen.png`} alt="portfolio" 
+                <Image src={`/assets/images/tools-icons/google-searchconsole.png`} alt="portfolio" 
                   width={100} height={100}
                 /> 
               </div>
               <div className="port-skl-item-1-info">
                 <div>
-                  <h3>Evergreen</h3>
-                  <p>Evergreen - React UI Framework for building ambitious products on the web</p>
+                  <h3>Google Search Console</h3>
+                  <p>- Manage websites indexing status, search queries, crawling errors and optimize visibility</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 semrush" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/semrush.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>SEMRush</h3>
+                  <p>- Monitor websites traffics, SEO suggestions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 data-aos="fade-up">Others</h3>
+          <div className="port-skl-1">
+            <div className="port-skl-item-1 tawkto" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/tawkto.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>Tawk.to</h3>
+                  <p>- LiveChat with clients/users based on ticketing system</p>
+                  <p>- Wrote knowledge base articles for events</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 canva" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/canva.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>Canva</h3>
+                  <p>- Edit logos, png and any other images that does not fit the projects</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 krita" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/krita.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>Krita</h3>
+                  <p>- Krita is a professional FREE and open source painting program</p>
+                  <p>- Edit logos or images that Canva cannot provide</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 figma" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/figma.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>Figma</h3>
+                  <p>- Build UI/UX for mobile app and websites</p>
+                  <p>PS: I need more experience</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 zeplin" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/zeplin.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>Zeplin</h3>
+                  <p>- To refer UI for building websites</p>
+                  <p>- Join existing projects for UI/UX</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 emailjs" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/emailjs.png`} alt="portfolio" 
+                  width={80} height={80}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>EmailJS</h3>
+                  <p>- Used for contact forms</p>
+                  <p>- To send enquiries from contact forms as email to client</p>
                 </div>
               </div>
             </div>

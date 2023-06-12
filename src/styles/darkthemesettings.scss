@@ -34,18 +34,28 @@ html.dark-theme .wrap-portfolio {
     color: #fff;
   }
   & .proj2-desc-1-desc p {
-    color: #fff;
+    color: #cbcbcb;
   }
 
   & .portfolio-content-2 {
     & h2, & > h3 {
       color: #fff;
     }
+    & > p {
+      color: #cbcbcb;
+    }
   }
   
   
-  & .port-skl-item-1 {
-    padding: 5px;
+  // & .port-skl-item-1 {
+  //   padding: 5px;
+  // }
+
+  & .port-skl-2-1 {
+  
+    & > h3 {
+      color: #fff;
+    }
   }
 }
 

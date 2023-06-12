@@ -450,15 +450,19 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   &.onepgtemplate {
     background-image: url('../../public/assets/images/samplelanding-1.png');
   }
+  &.fenetwork {
+    background-image: url('../../public/assets/images/fenetwork-1.png');
+  }
 }
 .proj2-desc-1-desc {
   padding: 20px 30px;
 
   & p {
-    color: #000;
+    color: #3d3d3d;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
+    letter-spacing: normal;
     margin: 0 0 30px;
   }
 }
@@ -501,6 +505,7 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
 .proj2-desc-1-desc-button {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
   & button {
     font-size: 12px;
     padding: 20px 20px;
@@ -518,7 +523,7 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
     width: fit-content;
     color: #000;
     padding: 0;
-    margin: 0 0 10px;
+    margin: 0;
     font-size: 40px;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
@@ -532,23 +537,33 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
     font-size: 20px;
     font-weight: 900;
   }
+  & > p {
+    width: fit-content;
+    color: #3d3d3d;
+    padding: 0;
+    margin: 0 0 20px;
+    font-size: 16px;
+  }
 }
 
 .port-skl-1 {
   width: 100%;
   display: flex;
   // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 30px;
+  gap: 20px;
   flex-wrap: wrap;
   margin-bottom: 60px;
 }
 .port-skl-item-1 {
-  width: 200px;
+  width: 220px;
+  padding: 5px;
   box-shadow: $box-shadow-tailwind;
   border-radius: 20px;
   display: flex;
   // grid-template-columns: 1fr;
   flex-direction: column;
+  background-color: #000 !important;
+  border: 1px solid #fff !important;
 
   &.html5 {
     // background-color: rgb(242, 117, 64);
@@ -577,6 +592,24 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   &.evergreen {
     background-color: rgb(0, 147, 83);
   }
+  
+  &.wordpress {
+    background-color: rgb(0, 77, 112);
+  }
+  &.divi {
+    background-color: rgb(84, 3, 130);
+  }
+  &.google {
+    background-color: rgb(28, 101, 198);
+  }
+  &.semrush {
+    background-color: rgb(198, 83, 0);
+  }
+  
+  &.canva {
+    background-color: #000;
+    border: 1px solid #fff;
+  }
 }
 .port-skl-item-1-img {
   background-color: #000;
@@ -597,6 +630,7 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
     line-height: normal;
     box-shadow: $box-shadow-facebook;
   }
+  border-bottom: 1px solid #959595;
 }
 .port-skl-item-1-info {
   color: #fff;
@@ -606,7 +640,7 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   padding: 15px 15px 20px;
 
   & h3 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 900;
   }
   & p {
@@ -615,6 +649,32 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   }
 }
 
+.port-skl-2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.port-skl-2-1 {
+  width: 100%;
+
+  & > div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  & > h3 {
+    width: fit-content;
+    color: #000;
+    padding: 0;
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+}
 
 @keyframes border-pulse {
   0% {
@@ -685,6 +745,15 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   .port-skl-1 {
     grid-template-columns: 1fr 1fr;
   }
+  .port-skl-2 {
+    grid-template-columns: 1fr;
+    gap: 60px;
+
+    & > div > div {
+      display: flex;
+      gap: 20px;
+    }
+  }
 }
 
 
@@ -715,21 +784,35 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   }
 
   .port-skl-1 {
-    // grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     justify-content: space-between;
   }
   
   .port-skl-item-1 {
-    width: 47%;
+    width: 100%;
   }
   .port-skl-item-1-info {
     & h3 {
-      font-size: 16px;
+      font-size: 13px;
     }
     & p {
       font-size: 10px;
     }
+  }
+
+  .port-skl-2 {
+    grid-template-columns: 1fr;
+
+    & > div > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  }
+  .portfolio-content-2 > p {
+    font-size: 14px;
   }
 }
 

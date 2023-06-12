@@ -482,7 +482,9 @@ export const ProjectsTemplate2 = () => {
                   <h3><HiOutlineFingerPrint className="proj2-card-icon" />QC Rental</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
-                <p>QC HOLIDAY PREMIUM RENTAL SDN. BHD. strive to creatively provide comprehensive provision with regards to car rental, buying or selling a used car as far as to car mortgage financial service to ease everyone in debt repayment planning especially post MCO stage.</p>
+                <p>QC HOLIDAY PREMIUM RENTAL SDN. BHD. strive to creatively provide comprehensive provision with regards to car rental, buying or selling a used car as far as to car mortgage financial service to ease everyone in debt repayment planning especially post MCO stage.<br/>
+                  - Developed a landing with embeded video from vimeo.com <br/>
+                  - Website consist of both english and chinese version.</p>
 
                 <div className={`proj2-desc-1-desc-icons`}>
                   <PopoverItem 
@@ -514,7 +516,9 @@ export const ProjectsTemplate2 = () => {
                   <h3><HiOutlineFingerPrint className="proj2-card-icon" />Template</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
-                <p>This is a mini template I made early 2022 for a normal 1 page landing, everything displayed here is just a sample placeholder. An fade up animation is also included inside the template made with javascript.</p>
+                <p>This is a mini template I made early 2022 for a normal 1 page landing, everything displayed here is just a sample placeholder. <br/>
+                  - An fade up animation is also included inside the template made with javascript. <br/>
+                  - A sample privacy policy page is included too.</p>
 
                 <div className={`proj2-desc-1-desc-icons`}>
                   <PopoverItem 
@@ -531,6 +535,55 @@ export const ProjectsTemplate2 = () => {
                   <Link href="https://lively-syrniki-5a78c4.netlify.app/" className="project-desc-2-btn-text" target="_blank">
                     <Button color="warning" auto size={`sm`} >
                       View Template
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className={`proj2-card-item`} data-aos="fade-up">
+              <div className={`proj2-desc-1-bg fenetwork`}>
+              </div>
+
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />FE Network</h3>
+                  <span className={`proj2-desc-1-type`}>Landing</span>
+                </div>                
+                <p>- Involved in developing new financial literary month pages in BM and Eng.<br/>
+                  - Participated throughout the whole FLM2021 event (Built microsites for event). Also served as a support helpdesk during the virtual event. <br/>
+                  - Built a microsite for users to search for financial documents, link provided below. Page consists of filtering function, with plugin to convert .csv file to viewable content. <br/>
+                  - Last involved in 2021 internship.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/wordpress.png"
+                    popover_desc="WordPress – Free and open-source content management system"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/divi.png"
+                    popover_desc="DiVi by ElegentThemes – The Most Popular WordPress Theme"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/gravityforms.png"
+                    popover_desc="Gravity Forms - The Best WordPress Form Plugin | Form Builder"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://www.fenetwork.com/" className="project-desc-2-btn-text" target="_blank">
+                    <Button color="default" auto size={`sm`} >
+                      View FENetwork
+                    </Button>
+                  </Link>
+                  <Link href="https://www.fenetwork.my/flm2021/finale/" className="project-desc-2-btn-text" target="_blank">
+                    <Button color="default" auto size={`sm`} >
+                      View FLM2021
+                    </Button>
+                  </Link>
+                  <Link href="https://www.fenetwork.my/choose-your-life-stage/" className="project-desc-2-btn-text" target="_blank">
+                    <Button color="default" auto size={`sm`} >
+                      View FEN Documents
                     </Button>
                   </Link>
                 </div>
