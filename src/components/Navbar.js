@@ -6,7 +6,7 @@ import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 // import { useTheme as useNextTheme } from 'next-themes';
 import { Switch, Dropdown, useTheme } from '@nextui-org/react';
 import { ThemeProvider as NextThemesProvider, useTheme as useNextTheme } from 'next-themes';
-
+import { FaHamburger, FaRegTimesCircle } from "react-icons/fa";
 
 import dynamic from 'next/dynamic';
 const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
@@ -23,6 +23,8 @@ export default function Navbar() {
   useEffect(() => {
     console.log(`Current theme: ${type}`);
   }, [type]);
+
+  const [mobdropdown, setMobDropdown] = useState(false);
 
   return (
     <>
@@ -84,8 +86,14 @@ export default function Navbar() {
               <BsFillSunFill />
             </div>}
           />
-
-          <Dropdown placement="bottom-right">
+          <div className="nav-mob-dropdown">
+            {mobdropdown != false ?
+              <FaRegTimesCircle className="nav-mob-dropdown-icon" onClick={()=> setMobDropdown(!mobdropdown)}/>  
+            : 
+              <FaHamburger className="nav-mob-dropdown-icon" onClick={()=> setMobDropdown(!mobdropdown)}/> 
+            }
+          </div>
+          {/* <Dropdown placement="bottom-right">
             <Dropdown.Button className="nav-mob-dropdown"></Dropdown.Button>
             <Dropdown.Menu aria-label="Static Actions" className="nav-mob-dropdown-menu">
               <Dropdown.Item key="home" className="nav-mob-dropdown-item">
@@ -103,15 +111,18 @@ export default function Navbar() {
                     portfolio
                 </Link>
               </Dropdown.Item>
-              {/* <Dropdown.Item key="portfolio" className="nav-mob-dropdown-item">
-                <Link href='#' className={`${router.pathname == "/food" ? "active" : ""} nav-links`} target='_top'>
-                    food
-                </Link>
-              </Dropdown.Item> */}
             </Dropdown.Menu>
-          </Dropdown>
+          </Dropdown> */}
         </div>
       </nav>
+
+      <div className={`nav-mob-content ${mobdropdown != false ? '' : 'hidden'}`}>
+        <div className={`nav-mob-content-item`} onClick={()=> setMobDropdown(!mobdropdown)}>
+          <Link href="/" className={`nav-mob-link mob-home ${router.pathname == "/" ? "active" : ""}`}>Home</Link>
+          <Link href="/about_me" className={`nav-mob-link mob-aboutme ${router.pathname == "/about_me" ? "active" : ""}`}>About Me</Link>
+          <Link href="/portfolio" className={`nav-mob-link mob-portfolio ${router.pathname == "/portfolio" ? "active" : ""}`}>Portfolio</Link>
+        </div>
+      </div>
     </>
   )
 }

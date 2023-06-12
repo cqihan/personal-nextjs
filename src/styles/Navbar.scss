@@ -96,6 +96,68 @@ $transition-2s: all 0.2s ease-in-out;
   display: none;
 }
 
+.nav-mob-content {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  z-index: 1000;
+  animation: fadeIn 0.5s;
+
+  &.hidden {
+    display: none;
+  }
+}
+.nav-mob-content-item {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  align-items: center;
+
+  & .nav-mob-link {
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+    &.mob-home {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/assets/images/navbar/home-1.png');
+      &.active {
+        border: 1px solid #fff;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../public/assets/images/navbar/home-1.png');
+      }
+    }
+    &.mob-aboutme {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/assets/images/navbar/aboutme-1.png');
+      &.active {
+        border: 1px solid #fff;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../public/assets/images/navbar/aboutme-1.png');
+      }
+    }
+    &.mob-portfolio {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/assets/images/navbar/portfolio-1.png');
+      &.active {
+        border: 1px solid #fff;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../public/assets/images/navbar/portfolio-1.png');
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 @media screen and (max-width: 576px ) {
   .navbar-container {
@@ -110,68 +172,56 @@ $transition-2s: all 0.2s ease-in-out;
   }
 
   .nav-mob-dropdown {
-    background-color: rgb(42, 45, 50);
+    // background-color: rgb(42, 45, 50);
     display: flex;
-    width: 40px !important;
-    min-width: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 30px !important;
+    min-width: 30px;
+    min-height: 40px;
     margin:0 0 0 20px;
+    border-radius: 10px;
 
-    & > span {
-      width: 40px;
-      height: 40px;
+    & .nav-mob-dropdown-icon {
+      font-size: 24px;
+      line-height: normal;
     }
   }
-  .nextui-c-ltVxD-ftAOXD-isPositioned-true {
-    width: 95%;
-    display: flex;
-    margin: 10px 0 0 12px ;
-    left: 0 !important;
-    box-shadow: $box-shadow-default !important;
-  }
-  .nav-mob-dropdown-menu {
-    width: 100%;
-    max-width:none;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 8px 20px;
 
-    & .nav-links {
-      color: #000;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      padding: 8px 12px;
-      margin: 0 auto;
-      font-size: 14px;
-      text-align: center;
-      border-radius: 12px;
+  // .nextui-c-ltVxD-ftAOXD-isPositioned-true {
+  //   width: 95%;
+  //   display: flex;
+  //   margin: 10px 0 0 12px ;
+  //   left: 0 !important;
+  //   box-shadow: $box-shadow-default !important;
+  // }
+  // .nav-mob-dropdown-menu {
+  //   width: 100%;
+  //   max-width:none;
+  //   display: grid;
+  //   grid-template-columns: 1fr;
+  //   gap: 20px;
+  //   padding: 8px 20px;
 
-      &.active {
-        color: #000;
-        background-color: rgba(42, 45, 50, 0.10);
-      }
-    }
-  }
-  html.dark-theme .nav-mob-dropdown-menu {
+  //   & .nav-links {
+  //     color: #000;
+  //     width: 100%;
+  //     height: 100%;
+  //     display: flex;
+  //     justify-content: center;
+  //     padding: 8px 12px;
+  //     margin: 0 auto;
+  //     font-size: 14px;
+  //     text-align: center;
+  //     border-radius: 12px;
 
-    & .nav-links {
-      color: #fff;
-
-      &.active {
-        color: #fff;
-        background-color: rgb(42, 45, 50);
-      }
-    }
-  }
-  .nav-mob-dropdown-item {
-    padding: 0;
-    background: none;
-    &:hover {
-      background: none;
-    }
-  }
+  //     &.active {
+  //       color: #000;
+  //       background-color: rgba(42, 45, 50, 0.10);
+  //     }
+  //   }
+  // }
+  
 }
 
 
