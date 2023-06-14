@@ -459,7 +459,7 @@ export default function Portfolio() {
               <div className="port-skl-item-1-info">
                 <div>
                   <h3>StreamElements</h3>
-                  <p>- Setup dashboard stream&apos;s for revenue, merch and stream analytics</p>
+                  <p>- Setup dashboard for stream&apos;s revenue, merch and stream analytics</p>
                   <p>- Create stream notifications (Eg. New followers / subscribers)</p>
                 </div>
               </div>
