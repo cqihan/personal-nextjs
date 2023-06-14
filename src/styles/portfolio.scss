@@ -376,7 +376,7 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
+  gap: 30px;
   align-items: start;
 }
 
@@ -455,7 +455,7 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   }
 }
 .proj2-desc-1-desc {
-  padding: 20px 30px;
+  padding: 30px 30px;
 
   & p {
     color: #3d3d3d;
@@ -463,11 +463,11 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     letter-spacing: normal;
-    margin: 0 0 30px;
+    margin: 0 0 20px;
   }
 }
 .proj2-desc-1-desc-header {
-  margin: 0 0 10px;
+  margin: 0 0 20px;
   display: flex;
   justify-content: space-between;
 
@@ -512,7 +512,111 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
   }
 }
 
+.proj3-card-item {
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  box-shadow: $box-shadow-facebook;
 
+  & .proj2-desc-1-desc {
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(1px);
+    border-radius: 15px;
+    // opacity: 0;
+  }
+  // &:hover {
+  //   box-shadow: $box-shadow-facebook;
+  //   & .proj2-desc-1-desc {
+  //     opacity: 1;
+  //   }
+  // }
+  
+  & .proj2-desc-1-desc-header h3 {
+    color: #fff;
+  }
+  & .proj2-desc-1-desc p {
+    color: #ebebeb;
+  }
+
+  &.ubb {
+    background-position: center;
+    background-image: url('../../public/assets/images/ubb-bgimage-1.png');
+  }
+  &.washla {
+    background-position: left;
+    background-image: url('../../public/assets/images/Washla-bgimage-1.png');
+  }
+  &.quickfix {
+    background-position: right;
+    background-image: url('../../public/assets/images/quickfix-bgimage-1.png');
+  }
+  &.akc {
+    background-position: left;
+    background-image: url('../../public/assets/images/apekidsclub-bgimage-1.png');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  }
+  &.base2 {
+    background-position: left;
+    background-image: url('../../public/assets/images/base2-bgimage-1.png');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  }
+  &.autopit {
+    background-position: center;
+    background-image: url('../../public/assets/images/autopit-bgimage-1.png');
+  }
+  &.tclam {
+    background-position: left;
+    background-image: url('../../public/assets/images/tclam-bgimage-1.png');
+  }
+  &.elysium {
+    background-position: right;
+    background-image: url('../../public/assets/images/elysium-bgimage-1.png');
+  }
+  &.udbio {
+    background-position: left;
+    background-image: url('../../public/assets/images/udbio-bgimage-1.png');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  }
+  &.bizcentric {
+    background-position: left;
+    background-image: url('../../public/assets/images/bizcentric-bgimage-1.png');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  }
+  &.fresotech {
+    background-position: right;
+    background-image: url('../../public/assets/images/freso-bgimage-1.png');
+  }
+  &.shawarma {
+    background-image: url('../../public/assets/images/shawarma-bgimage-2.png');
+  }
+  &.qcrental {
+    background-image: url('../../public/assets/images/qcrental-bgimage-1.png');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+  }
+  &.onepgtemplate {
+    background-image: url('../../public/assets/images/samplelanding-1.png');
+  }
+  &.fenetwork {
+    background-image: url('../../public/assets/images/fenetwork-1.png');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  }
+}
 
 .portfolio-content-2 {
   width: 95%;

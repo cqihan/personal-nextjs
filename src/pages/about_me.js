@@ -54,7 +54,7 @@ export default function AboutMe() {
               </div>
               <div className="abtMe-cont-0-item-1-02-01">
                 <TbCalendarTime className="abtMe-cont-0-item-1-02-01-icon2" />
-                <p>January 2022 - Present</p> <br/>
+                <p>January 2022 - May 2023</p> <br/>
                 <TbBrandVscode className="abtMe-cont-0-item-1-02-01-icon2" />
                 <p>Front-end Web Developer <br/>(ReactJS/NextJS)</p>
               </div>

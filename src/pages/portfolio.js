@@ -5,6 +5,7 @@ import { Card, Col, Row, Grid, Text, Popover, Button } from "@nextui-org/react";
 // import { Projects1 } from '@/components/Portfolio_Card1';
 import { ProjectsTemplate2 } from '@/components/Portfolio_Card2';
 import { AiFillFire } from "react-icons/ai";
+import { ProjectsTemplate3 } from '@/components/Portfolio_Card3';
 
 
 export default function Portfolio() {
@@ -107,11 +108,13 @@ export default function Portfolio() {
 
         <section className={`portfolio-content-1`}>
           {/* <h2>Past Projects</h2> */}
-
           {/* <div className={`portfolio-content-1-container-1`} >
             <Projects1 />
           </div> */}
-          <ProjectsTemplate2 />
+
+          {/* <ProjectsTemplate2 /> */}
+
+          <ProjectsTemplate3 />
         </section>
 
         <section className={`portfolio-content-2`}>
@@ -398,6 +401,81 @@ export default function Portfolio() {
                   <h3>EmailJS</h3>
                   <p>- Used for contact forms</p>
                   <p>- To send enquiries from contact forms as email to client</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 emailjs" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/metabusiness.png`} alt="portfolio" 
+                  width={80} height={80}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>Meta Business Suite</h3>
+                  <p>- Setup Messenger widget</p>
+                  <p>- Learnt about ads, analytics and live streams</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 data-aos="fade-up">Non Work Stuffs</h3>
+          <div className="port-skl-1">
+            <div className="port-skl-item-1 twitch" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/twitch.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>Twitch</h3>
+                  <p>- Setup environment for live streams and moderations</p>
+                  <p>- Moderations for a few streamers and create chat guidelines to obey by viewers</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 streamlabs" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/streamlabs.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>Streamlabs</h3>
+                  <p>- Setup gaming live streams to be broadcasted on Twitch, YouTube or Facebook</p>
+                  <p>- Designed themes for stream (Eg. Amount of followers / subscribers, Camera, Stream Notifications)</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 streamelements" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/streamelements.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>StreamElements</h3>
+                  <p>- Setup dashboard stream&apos;s for revenue, merch and stream analytics</p>
+                  <p>- Create stream notifications (Eg. New followers / subscribers)</p>
+                </div>
+              </div>
+            </div>
+            <div className="port-skl-item-1 vsdc" data-aos="fade-up">
+              <div className="port-skl-item-1-img">
+                <Image src={`/assets/images/tools-icons/vsdc.png`} alt="portfolio" 
+                  width={100} height={100}
+                /> 
+              </div>
+              <div className="port-skl-item-1-info">
+                <div>
+                  <h3>VSDC Video Editor</h3>
+                  <p>- Video editing software</p>
+                  <p>- Edited gaming videos to be published on YouTube</p>
+                  <p>PS: Still trying to learn more about video editing</p>
                 </div>
               </div>
             </div>
