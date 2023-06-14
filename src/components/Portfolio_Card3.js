@@ -377,7 +377,7 @@ export const ProjectsTemplate3 = () => {
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
                   <h3><HiOutlineFingerPrint className="proj2-card-icon" />ApeKidsClub</h3>
-                  <span className={`proj2-desc-1-type`}>Landing</span>
+                  <span className={`proj2-desc-1-type`}>NFT/Web3</span>
                 </div>                
                 <p>Ape Kids Club is a NFT collection of 9,999 Kids Apes that were sprouted from a thousand year old magical tree created by BAYC #4928 and #6268.</p>
                 <p> - Revamp project&apos;s frontend to ReactJS. <br/>
