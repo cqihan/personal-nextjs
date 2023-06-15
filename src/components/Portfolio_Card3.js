@@ -1,7 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 import { Card, Text, Popover, Button } from "@nextui-org/react";
-import { HiOutlineFingerPrint } from "react-icons/hi";
+import { TbBrandWordpress, TbBrandVscode } from "react-icons/tb";
 
 function PopoverItem(props){
   return (
@@ -31,7 +31,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item ubb`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />UBB Meta</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />UBB Meta</h3>
                   <span className={`proj2-desc-1-type`}>CRM</span>
                 </div>
                 <p>UBB Meta is a platform that provide trusts management in Digital Trust. More details in UBB Landing.
@@ -54,12 +54,12 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://login.ubbib.io/welcome" className="proj2-desc-1-btn-text" target="_blank">
+                  <Link href="https://login.ubbib.io/welcome" className="proj2-desc-1-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="error" auto size={`sm`} >
                       View UBB CRM
                     </Button>
                   </Link>
-                  <Link href="https://www.ubbib.io/" className="proj2-desc-1-btn-text" target="_blank">
+                  <Link href="https://www.ubbib.io/" className="proj2-desc-1-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="error" auto size={`sm`} >
                       View UBB Landing
                     </Button>
@@ -71,7 +71,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item autopit`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Autopit</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />Autopit</h3>
                   <span className={`proj2-desc-1-type`}>Services/E-Commerce</span>
                 </div>                
                 <p>Autopit&apos;s main service is to source used cars namely, recon cars imported from places such as Japan, Australia, or the UK. 
@@ -97,7 +97,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://www.autopitonline.com/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://www.autopitonline.com/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="primary" auto size={`sm`} >
                       {/* https://autopitonline.com/ */} View AutoPit
                     </Button>
@@ -109,7 +109,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item washla`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Wash La!</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />Wash La!</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>Wash La! is the Leading One-stop solution for Professional Shoe Wash & Sneaker cleaning service with door-to-door pickup and delivery within Klang Valley.</p>
@@ -139,7 +139,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://washla.my" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://washla.my" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="warning" auto size={`sm`} >
                         {/* https://washla.my/ */} View WashLa
                     </Button>
@@ -152,7 +152,7 @@ export const ProjectsTemplate3 = () => {
 
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />QuickFix DIY </h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />QuickFix DIY </h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>QuickFix - The Most Complete Hardware Shop provides DIY hardware products for Home & Living where customers are able to browse everything online!</p>
@@ -191,7 +191,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://quickfixdiy.com.my/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://quickfixdiy.com.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="error" auto size={`sm`} >
                       {/* https://quickfixdiy.com.my/ */} View QuickFix DIY
                     </Button>
@@ -203,7 +203,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item elysium`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Elysium Plantation</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />Elysium Plantation</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>Elysium Plantation Berhad was incorporated in Malaysia on 29th August 2022 as a limited company that principally engaged in the cultivation and processing of eucalyptus plantations. This is a corporate landing page.</p>
@@ -237,7 +237,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://elysiumberhad.com.my/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://elysiumberhad.com.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="success" auto size={`sm`} >
                      View Elysium
                     </Button>
@@ -249,7 +249,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item base2`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Base Two</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />Base Two</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>Base Two is a full-service app development company that provides app development, design and consulting services. This is company landing page I did for my previous company.</p>
@@ -289,7 +289,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://base2.my/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://base2.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="secondary" auto size={`sm`} >
                       {/* https://base2.my/ */} View BaseTwo
                     </Button>
@@ -301,7 +301,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item udbio`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />UD-Bio Malaysia</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />UD-Bio Malaysia</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>Shenzhen Ultra-Diagnostics Biotec. Co., Ltd. (hereinafter referred to as UD-Bio) was founded in June 2016 and is headquartered in Shenzhen. UD-Bio dedicates in the comprehensive product line of Thrombus & Hemostasis, Inflammation detection, POCT rapid diagnosis.</p>
@@ -335,7 +335,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://ud-bio.com.my/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://ud-bio.com.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="success" auto size={`sm`} >
                       {/* https://ud-bio.com.my/ */} View UD-Bio
                     </Button>
@@ -347,7 +347,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item fresotech`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />FresoTech</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />FresoTech</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>FRESO TECH is a fast-growing Web & App Development company based in Kuala Lumpur (KL), Malaysia specializing in providing professional website design & development services to small & medium-sized enterprises (SMEs) and corporate companies. </p>
@@ -364,7 +364,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://freso-tech.com/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://freso-tech.com/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="primary" auto size={`sm`} >
                       {/* https://bizcentric.com.my/ */} View Freso Tech
                     </Button>
@@ -376,7 +376,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item akc`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />ApeKidsClub</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />ApeKidsClub</h3>
                   <span className={`proj2-desc-1-type`}>NFT/Web3</span>
                 </div>                
                 <p>Ape Kids Club is a NFT collection of 9,999 Kids Apes that were sprouted from a thousand year old magical tree created by BAYC #4928 and #6268.</p>
@@ -397,12 +397,12 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://www.apekidsclub.io/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://www.apekidsclub.io/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="primary" auto size={`sm`} >
                       {/* https://www.apekidsclub.io/ */} View ApeKidsClub
                     </Button>
                   </Link>
-                  <Link href="https://www.apekidsuniverse.com/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://www.apekidsuniverse.com/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="primary" auto size={`sm`} >
                       {/* https://www.apekidsuniverse.com/ */} View Roadmap
                     </Button>
@@ -414,7 +414,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item bizcentric`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Bizcentric</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />Bizcentric</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>BIZCENTRIC Group strive to put our best foot forward when partnering ours clients in reaching their goals through producing unique content for Every Property.</p>
@@ -431,7 +431,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://bizcentric.com.my/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://bizcentric.com.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="primary" auto size={`sm`} >
                       {/* https://bizcentric.com.my/ */} View Bizcentric
                     </Button>
@@ -443,7 +443,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item tclam`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />TCLam Fruit Shop</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />TCLam Fruit Shop</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>Craving for premium imported fruits? TC Lam Fruit Shop got your covered. Sit back and relax, just order through our app and we will get it deliver to your doorsteps within 24 hours.</p>
@@ -460,7 +460,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://tclamshop.my/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://tclamshop.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="success" auto size={`sm`} >
                       {/* https://tclamshop.my/ */} View TCLamShop
                     </Button>
@@ -472,7 +472,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item shawarma`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Happy Arab Shawarma House</h3>
+                  <h3><TbBrandWordpress className="proj2-card-icon" />Happy Arab Shawarma House</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                
                 <p>Happy Arab Shawarma House is a restaurant located in the Philippines that sells shawarma as their specialty.</p>
@@ -494,7 +494,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://www.happyarabshawarma.com/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://www.happyarabshawarma.com/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="warning" auto size={`sm`} >
                       {/* https://bizcentric.com.my/ */} View Happy Arab Shawarma
                     </Button>
@@ -506,7 +506,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item qcrental`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />QC Holiday</h3>
+                  <h3><TbBrandVscode className="proj2-card-icon" />QC Holiday</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>            
                 <p>QC HOLIDAY PREMIUM RENTAL SDN. BHD. strive to creatively provide comprehensive provision with regards to car rental, buying or selling a used car as far as to car mortgage financial service to ease everyone in debt repayment planning especially post MCO stage.</p>
@@ -525,40 +525,9 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://www.qcrental.my/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://www.qcrental.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="primary" auto size={`sm`} >
                       {/* https://bizcentric.com.my/ */} View QC Rental
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className={`proj3-card-item onepgtemplate`} data-aos="fade-up">
-              <div className={`proj2-desc-1-desc`}>
-                <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />Simple Template</h3>
-                  <span className={`proj2-desc-1-type`}>Landing</span>
-                </div>                
-                <p>This is a mini template I made in early 2022 for a 1 page landing, everything displayed here is just a sample placeholder.</p>
-                <p> - An fade up animation is also included inside the template made with javascript. <br/>
-                  - A sample privacy policy page is included too.</p>
-
-                <div className={`proj2-desc-1-desc-icons`}>
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/reactjs.png"
-                    popover_desc="React – A JavaScript library for building user interfaces"
-                  />
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/sass_01.png"
-                    popover_desc="Sass: Syntactically Awesome Style Sheets"
-                  />
-                </div>
-
-                <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://lively-syrniki-5a78c4.netlify.app/" className="project-desc-2-btn-text" target="_blank">
-                    <Button color="warning" auto size={`sm`} >
-                      View Template
                     </Button>
                   </Link>
                 </div>
@@ -568,7 +537,7 @@ export const ProjectsTemplate3 = () => {
             <div className={`proj3-card-item fenetwork`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
-                  <h3><HiOutlineFingerPrint className="proj2-card-icon" />FENetwork</h3>
+                  <h3><TbBrandWordpress className="proj2-card-icon" />FENetwork</h3>
                   <span className={`proj2-desc-1-type`}>Landing</span>
                 </div>                  
                 <p>- Involved in developing new financial literary month pages in BM and Eng.<br/>
@@ -592,19 +561,83 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://www.fenetwork.com/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://www.fenetwork.com/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="default" auto size={`sm`} >
                       View FENetwork
                     </Button>
                   </Link>
-                  <Link href="https://www.fenetwork.my/flm2021/finale/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://www.fenetwork.my/flm2021/finale/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="default" auto size={`sm`} >
                       View FLM2021
                     </Button>
                   </Link>
-                  <Link href="https://www.fenetwork.my/choose-your-life-stage/" className="project-desc-2-btn-text" target="_blank">
+                  <Link href="https://www.fenetwork.my/choose-your-life-stage/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="default" auto size={`sm`} >
                       View FEN Documents
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className={`proj3-card-item vpkl`} data-aos="fade-up">
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><TbBrandWordpress className="proj2-card-icon" />Video Production KL</h3>
+                  <span className={`proj2-desc-1-type`}>Landing</span>
+                </div>                  
+                <p>Video Production KL is a company that specializes in video productions for brand marketing and many more.</p>
+                <p>- Revamped portfolio page in WordPress with Divi to improve page loading speed. <br/>
+                  - Fixed portfolio and filter function in portfolio page. <br/>
+                  - Also manages other content updates and SEO changes. <br/>
+                  - Last involved in 2021 internship.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/wordpress.png"
+                    popover_desc="WordPress – Free and open-source content management system"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/divi.png"
+                    popover_desc="DiVi by ElegentThemes – The Most Popular WordPress Theme"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://www.videoproductionkl.com/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="success" auto size={`sm`} >
+                      View VPKL
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className={`proj3-card-item onepgtemplate`} data-aos="fade-up">
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><TbBrandVscode className="proj2-card-icon" />Simple Template</h3>
+                  <span className={`proj2-desc-1-type`}>Landing</span>
+                </div>                
+                <p>This is a mini template I made in early 2022 for a 1 page landing, everything displayed here is just a sample placeholder.</p>
+                <p> - An fade up animation is also included inside the template made with javascript. <br/>
+                  - A sample privacy policy page is included too.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/reactjs.png"
+                    popover_desc="React – A JavaScript library for building user interfaces"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/sass_01.png"
+                    popover_desc="Sass: Syntactically Awesome Style Sheets"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://lively-syrniki-5a78c4.netlify.app/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="warning" auto size={`sm`} >
+                      View Template
                     </Button>
                   </Link>
                 </div>
