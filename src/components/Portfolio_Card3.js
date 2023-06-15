@@ -542,7 +542,8 @@ export const ProjectsTemplate3 = () => {
                 </div>                  
                 <p>- Involved in developing new financial literary month pages in BM and Eng.<br/>
                   - Participated throughout the whole FLM2021 event (Built microsites for event). Also served as a support helpdesk during the virtual event. <br/>
-                  - Built a microsite for users to search for financial documents, link provided below. Page consists of filtering function, with plugin to convert .csv file to viewable content. <br/>
+                  - Built a microsite for users to search for financial documents, link provided below. Page consists of filtering function.  <br/>
+                  - Used PHP and Wordpress plugin to convert .csv file to viewable content. <br/>
                   - Last involved in 2021 internship.</p>
 
                 <div className={`proj2-desc-1-desc-icons`}>
