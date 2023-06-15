@@ -625,8 +625,38 @@ $box-shadow-default: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05)
       background-color: rgba(0, 0, 0, 0.75);
     }
   }
+  &.fimmac {
+    background-image: url('../../public/assets/images/fimmac-1.jpg');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  }
   &.vpkl {
     background-image: url('../../public/assets/images/vpkl.png');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }
+  &.mprc {
+    background-image: url('../../public/assets/images/mprc.png');
+  }
+  &.mysenyum {
+    background-image: url('../../public/assets/images/mysenyum.png');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  }
+  &.thermomix {
+    background-image: url('../../public/assets/images/thermomix.png');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  }
+  &.rosken {
+    background-image: url('../../public/assets/images/rosken.png');
+    & .proj2-desc-1-desc {
+      background-color: rgba(0, 0, 0, 0.75);
+    }
   }
 }
 

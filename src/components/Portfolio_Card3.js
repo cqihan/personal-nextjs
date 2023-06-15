@@ -1,7 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 import { Card, Text, Popover, Button } from "@nextui-org/react";
-import { TbBrandWordpress, TbBrandVscode } from "react-icons/tb";
+import { TbBrandWordpress, TbBrandVscode, TbSeo } from "react-icons/tb";
 
 function PopoverItem(props){
   return (
@@ -469,6 +469,37 @@ export const ProjectsTemplate3 = () => {
               </div>
             </div>
 
+            <div className={`proj3-card-item qcrental`} data-aos="fade-up">
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><TbBrandVscode className="proj2-card-icon" />QC Holiday</h3>
+                  <span className={`proj2-desc-1-type`}>Landing</span>
+                </div>            
+                <p>QC HOLIDAY PREMIUM RENTAL SDN. BHD. strive to creatively provide comprehensive provision with regards to car rental, buying or selling a used car as far as to car mortgage financial service to ease everyone in debt repayment planning especially post MCO stage.</p>
+                <p> - Developed a landing with embeded video from vimeo.com in ReactJS. <br/>
+                  - Website consist of both english and chinese version.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/reactjs.png"
+                    popover_desc="React – A JavaScript library for building user interfaces"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/sass_01.png"
+                    popover_desc="Sass: Syntactically Awesome Style Sheets"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://www.qcrental.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="primary" auto size={`sm`} >
+                      {/* https://bizcentric.com.my/ */} View QC Rental
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
             <div className={`proj3-card-item shawarma`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
@@ -502,38 +533,7 @@ export const ProjectsTemplate3 = () => {
                 </div>
               </div>
             </div>
-
-            <div className={`proj3-card-item qcrental`} data-aos="fade-up">
-              <div className={`proj2-desc-1-desc`}>
-                <div className={`proj2-desc-1-desc-header`}>
-                  <h3><TbBrandVscode className="proj2-card-icon" />QC Holiday</h3>
-                  <span className={`proj2-desc-1-type`}>Landing</span>
-                </div>            
-                <p>QC HOLIDAY PREMIUM RENTAL SDN. BHD. strive to creatively provide comprehensive provision with regards to car rental, buying or selling a used car as far as to car mortgage financial service to ease everyone in debt repayment planning especially post MCO stage.</p>
-                <p> - Developed a landing with embeded video from vimeo.com in ReactJS. <br/>
-                  - Website consist of both english and chinese version.</p>
-
-                <div className={`proj2-desc-1-desc-icons`}>
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/reactjs.png"
-                    popover_desc="React – A JavaScript library for building user interfaces"
-                  />
-                  <PopoverItem 
-                    popover_image="/assets/images/tools-icons/sass_01.png"
-                    popover_desc="Sass: Syntactically Awesome Style Sheets"
-                  />
-                </div>
-
-                <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://www.qcrental.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
-                    <Button color="primary" auto size={`sm`} >
-                      {/* https://bizcentric.com.my/ */} View QC Rental
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
+            
             <div className={`proj3-card-item fenetwork`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
@@ -558,6 +558,10 @@ export const ProjectsTemplate3 = () => {
                     popover_image="/assets/images/tools-icons/gravityforms.png"
                     popover_desc="Gravity Forms - The Best WordPress Form Plugin | Form Builder"
                   />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/tawkto.png"
+                    popover_desc="tawk.to is the world&apos;s #1 most widely used live chat software"
+                  />
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
@@ -576,6 +580,52 @@ export const ProjectsTemplate3 = () => {
                       View FEN Documents
                     </Button>
                   </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className={`proj3-card-item fimmac`} data-aos="fade-up">
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><TbBrandWordpress className="proj2-card-icon" />FIMMAC 2021</h3>
+                  <span className={`proj2-desc-1-type`}>Landing</span>
+                </div>                  
+                <p>FIMMAC 2021 - Getting Malaysians invested in their investments through a fun and informative virtual event.</p>
+                <p>- Participated in designing and developing the microsite with WordPress and Divi. <br/>
+                  - GravityForms as a registration method for the virtual event. <br/>
+                  - Served as a event helpdesk (livechat) and wrote knowledge base FAQ articles in TawkTo. <br/>
+                  - Last involved in 2021 internship.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/wordpress.png"
+                    popover_desc="WordPress – Free and open-source content management system"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/divi.png"
+                    popover_desc="DiVi by ElegentThemes – The Most Popular WordPress Theme"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/gravityforms.png"
+                    popover_desc="Gravity Forms - The Best WordPress Form Plugin | Form Builder"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/tawkto.png"
+                    popover_desc="tawk.to is the world&apos;s #1 most widely used live chat software"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="/assets/images/fimmac-1.jpg" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="default" auto size={`sm`} >
+                      View Image
+                    </Button>
+                  </Link>
+                  {/* <Link href="https://www.lightup7.com/project/fimmac2021/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="default" auto size={`sm`} >
+                      View FIMMAC 2021
+                    </Button>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -607,6 +657,139 @@ export const ProjectsTemplate3 = () => {
                   <Link href="https://www.videoproductionkl.com/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="success" auto size={`sm`} >
                       View VPKL
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className={`proj3-card-item mysenyum`} data-aos="fade-up">
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><TbBrandWordpress className="proj2-card-icon" />MySenyum</h3>
+                  <span className={`proj2-desc-1-type`}>E-Commerce</span>
+                </div>                  
+                <p>MySenyum provides affordable, one-stop solution for your dental care and hygiene needs. Users are able to buy products or book dental session through the website.</p>
+                <p>- Participated in developing the landing with WordPress and Divi. <br/>
+                  - GravityForms for receiving form enquiries (appointments/career). <br/>
+                  - Last involved in 2021 internship.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/wordpress.png"
+                    popover_desc="WordPress – Free and open-source content management system"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/divi.png"
+                    popover_desc="DiVi by ElegentThemes – The Most Popular WordPress Theme"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/gravityforms.png"
+                    popover_desc="Gravity Forms - The Best WordPress Form Plugin | Form Builder"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://www.mysenyum.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="secondary" auto size={`sm`} >
+                      View MySenyum
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className={`proj3-card-item thermomix`} data-aos="fade-up">
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><TbSeo className="proj2-card-icon" />Thermomix</h3>
+                  <span className={`proj2-desc-1-type`}>E-Commerce</span>
+                </div>                  
+                <p>Thermomix is an e-commerce that provides kitchen products, cookbooks, audiobooks and many cooking related contents.</p>
+                <p>- Participated in maintaining and updating website SEO based on requirements and guidelines. <br/>
+                  - Update product listings with provided .csv for both SG and MY Thermomix. <br/>
+                  - Added articles (blogs) for better SEO in SG and MY Thermomix. <br/>
+                  - Last involved in 2021 internship.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/wordpress.png"
+                    popover_desc="WordPress – Free and open-source content management system"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://thermomix.com.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="success" auto size={`sm`} >
+                      View Thermomix
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className={`proj3-card-item rosken`} data-aos="fade-up">
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><TbSeo className="proj2-card-icon" />Rosken</h3>
+                  <span className={`proj2-desc-1-type`}>E-Commerce</span>
+                </div>                  
+                <p>Rosken is an e-commerce that provides skin repair and skin care products.</p>
+                <p>- Participated in maintaining and updating website SEO based on requirements and guidelines. <br/>
+                  - Manage and update product listings. <br/>
+                  - Last involved in 2021 internship.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/wordpress.png"
+                    popover_desc="WordPress – Free and open-source content management system"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/divi.png"
+                    popover_desc="DiVi by ElegentThemes – The Most Popular WordPress Theme"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/gravityforms.png"
+                    popover_desc="Gravity Forms - The Best WordPress Form Plugin | Form Builder"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://rosken.com.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="default" auto size={`sm`} >
+                      View Rosken
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            
+            <div className={`proj3-card-item mprc`} data-aos="fade-up">
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><TbBrandWordpress className="proj2-card-icon" />MPRC</h3>
+                  <span className={`proj2-desc-1-type`}>Landing</span>
+                </div>   
+                <p>National OGSE Sustainability FORUM is a one page microsite for users to view the live event and schedule.</p>               
+                <p>- Involved in developing the frontend in WordPress, HTML5 and Divi.<br/>
+                  - Also served as a support helpdesk (livechat) during the virtual event. <br/>
+                  - Last involved in 2021 internship.</p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/wordpress.png"
+                    popover_desc="WordPress – Free and open-source content management system"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/divi.png"
+                    popover_desc="DiVi by ElegentThemes – The Most Popular WordPress Theme"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://events.mprc.gov.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="success" auto size={`sm`} >
+                      View MPRC
                     </Button>
                   </Link>
                 </div>
