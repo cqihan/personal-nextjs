@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Tooltip, Button, Grid } from "@nextui-org/react";
 import { SiTwitter, SiGithub, SiLinkedin,
-  SiMyanimelist, SiOsu, SiTwitch
+  SiMyanimelist, SiOsu, SiTwitch, SiInstagram
 } from "react-icons/si";
 
 export default function Footer() {
@@ -37,6 +37,9 @@ export default function Footer() {
               </Link>
               <Link href="https://www.twitch.tv/pucceu" className="f-icon-item-7" target="_blank" rel="noopener noreferrer">
                 <SiTwitch />
+              </Link>
+              <Link href="https://www.instagram.com/pucceu.arc/?hl=en" className="f-icon-item-7" target="_blank" rel="noopener noreferrer">
+                <SiInstagram />
               </Link>
             </div>
           </div>
