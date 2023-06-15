@@ -213,6 +213,20 @@ export default function Portfolio() {
                     </div>
                   </div>
                 </div>
+                <div className="port-skl-item-1 smartslider" data-aos="fade-up">
+                  <div className="port-skl-item-1-img">
+                    <Image src={`/assets/images/tools-icons/smartslider.png`} alt="portfolio" 
+                      width={100} height={100}
+                    /> 
+                  </div>
+                  <div className="port-skl-item-1-info">
+                    <div>
+                      <h3>SmartSlider3</h3>
+                      <p>- WordPress slider plugin</p>
+                      <p>- To create slider, carousel and block in Wordpress</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
