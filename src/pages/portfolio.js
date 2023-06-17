@@ -117,7 +117,7 @@ export default function Portfolio() {
           <ProjectsTemplate3 />
         </section>
 
-        <section className={`portfolio-content-2`}>
+        <section className={`portfolio-content-2`} id={`skills`}>
           <h2 data-aos="fade-up">My Skills</h2>
           <p data-aos="fade-up">This section is about the tools I used and why I use them</p>
 

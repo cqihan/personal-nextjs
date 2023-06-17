@@ -20,9 +20,9 @@ export default function Navbar() {
   const { theme, setTheme } = useNextTheme();
   const { isDark, type } = useTheme();
 
-  useEffect(() => {
-    console.log(`Current theme: ${type}`);
-  }, [type]);
+  // useEffect(() => {
+  //   console.log(router)
+  // }, []);
 
   const [mobdropdown, setMobDropdown] = useState(false);
 
@@ -52,20 +52,26 @@ export default function Navbar() {
 
           <ul className='nav-menu'>
             <li className='nav-item'>
-              <Link href='/' className={`${router.pathname == "/" ? "active" : ""} nav-links`} target='_top'>
+              <Link href='/' className={`${router.asPath == "/" ? "active" : ""} nav-links`} target='_top'>
                   home 
               </Link>
             </li>
 
             <li className='nav-item'>
-              <Link href='/about_me' className={`${router.pathname == "/about_me" ? "active" : ""} nav-links`} target='_top'>
+              <Link href='/about_me' className={`${router.asPath == "/about_me" ? "active" : ""} nav-links`} target='_top'>
                   about me
               </Link>
             </li>
 
             <li className='nav-item'>
-              <Link href='/portfolio' className={`${router.pathname == "/portfolio" ? "active" : ""} nav-links`} target='_top'>
+              <Link href='/portfolio' className={`${router.asPath == "/portfolio" ? "active" : ""} nav-links`} target='_top'>
                   portfolio
+              </Link>
+            </li>
+
+            <li className='nav-item'>
+              <Link href='/portfolio/#skills' className={`${router.asPath == "/portfolio#skills" ? "active" : ""} nav-links`} target='_top'>
+                  skills
               </Link>
             </li>
 
