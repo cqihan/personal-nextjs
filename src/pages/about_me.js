@@ -63,7 +63,7 @@ export default function AboutMe() {
                 <p>Developed responsive landing and e-commerce websites using ReactJS, NextJS, HTML5, CSS3, JavaScript, UI Frameworks, Bootstrap, and NPM libraries.</p>
               </div>
               <div className="abtMe-cont-0-item-1-02-01">
-                <p>Collaborated with back-end developers to develop NFT website with e-commerce using ReactJS and Web3.js.</p>
+                <p>Revamped NFT website with a merch page using ReactJS.</p>
                 <p>Made Electronic Direct Mail (EDM) templates using HTML5/CSS3.</p>
               </div>
               <div className="abtMe-cont-0-item-1-02-01">
