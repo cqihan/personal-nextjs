@@ -23,24 +23,24 @@ export default function Footer() {
                   <SiMyanimelist classname="f-icon-01"/>
                 </div>
               </Tooltip> */}
-              <Link href="https://twitter.com/c_qihan" className="f-icon-item-1" target="_blank" rel="noopener noreferrer">
+              {/* <Link href="https://twitter.com/c_qihan" className="f-icon-item-1" target="_blank" rel="noopener noreferrer">
                 <SiTwitter />
-              </Link>
+              </Link> */}
               <Link href="https://github.com/cqihan" className="f-icon-item-1" target="_blank" rel="noopener noreferrer">
                 <SiGithub />
               </Link>
               <Link href="https://www.linkedin.com/in/qi-han-chan-8500ba174/" className="f-icon-item-1" target="_blank" rel="noopener noreferrer">
                 <SiLinkedin />
               </Link>
-              <Link href="https://osu.ppy.sh/users/16319895" className="f-icon-item-7" target="_blank" rel="noopener noreferrer">
+              {/* <Link href="https://osu.ppy.sh/users/16319895" className="f-icon-item-7" target="_blank" rel="noopener noreferrer">
                 <SiOsu />
-              </Link>
-              <Link href="https://www.twitch.tv/pucceu" className="f-icon-item-7" target="_blank" rel="noopener noreferrer">
+              </Link> */}
+              {/* <Link href="https://www.twitch.tv/pucceu" className="f-icon-item-7" target="_blank" rel="noopener noreferrer">
                 <SiTwitch />
-              </Link>
-              <Link href="https://www.instagram.com/pucceu.arc/?hl=en" className="f-icon-item-7" target="_blank" rel="noopener noreferrer">
+              </Link> */}
+              {/* <Link href="https://www.instagram.com/pucceu.arc/?hl=en" className="f-icon-item-7" target="_blank" rel="noopener noreferrer">
                 <SiInstagram />
-              </Link>
+              </Link> */}
             </div>
           </div>
 
