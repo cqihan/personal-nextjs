@@ -38,9 +38,10 @@
 .f-icon-container {
   color: #fff !important;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 100px 100px ;
   gap: 30px 10px;
   align-items: center;
+  justify-content: flex-end;
   
   & .nextui-c-ftJsHY.nextui-tooltip-button {
     cursor:pointer;
@@ -73,6 +74,19 @@
       transform: scale(1.25);
       cursor:pointer;
     }
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+  .footer-content-1 {
+    & p {
+      text-align: center;
+    }
+  }
+  
+  .f-icon-container {
+    justify-content: center;
   }
 }
 
