@@ -162,7 +162,7 @@ export default function AboutMe() {
               <div className="abtMe-cont-1-item-2-1">
                 <h3><TbWand className="abtMe-cont-1-item-2-1-icon" />Graphic Design</h3>
                 <p className="abtMe-cont-1-item-2-1-p1"><TbMapPinFilled className="abtMe-cont-1-item-2-1-icon2" />Sekolah Seri Suria</p>
-                <p className="abtMe-cont-1-item-2-1-p2">Highschool, Semi-Science class' Graphic Design course</p>
+                <p className="abtMe-cont-1-item-2-1-p2">Highschool, Semi-Science class Graphic Design course</p>
                 <p className="abtMe-cont-1-item-2-1-p2">Learn sketching theory, Adobe Photoshop & Illustrator</p>
               </div>
             </div>
