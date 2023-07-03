@@ -2,7 +2,7 @@ import Head from 'next/head';
 // import Image from 'next/image';
 import Link from 'next/link';
 import { Inter } from 'next/font/google';
-import { TbCodeCircle2, TbPalette, TbMapPinFilled, TbCalendarTime, TbBrandVscode, TbBrandWordpress } from "react-icons/tb";
+import { TbCodeCircle2, TbPalette, TbMapPinFilled, TbCalendarTime, TbBrandVscode, TbBrandWordpress, TbWand } from "react-icons/tb";
 import { HiOfficeBuilding } from "react-icons/hi";
 import { Image } from "@nextui-org/react";
 import { SiSpotify } from "react-icons/si";
@@ -157,6 +157,13 @@ export default function AboutMe() {
                 <h3><TbPalette className="abtMe-cont-1-item-2-1-icon" />Foundation in Arts</h3>
                 <p className="abtMe-cont-1-item-2-1-p1"><TbMapPinFilled className="abtMe-cont-1-item-2-1-icon2" />Taylor&apos;s University Lakeside Campus</p>
                 <p className="abtMe-cont-1-item-2-1-p2">Took mostly Designing and Architecture subjects</p>
+              </div>
+
+              <div className="abtMe-cont-1-item-2-1">
+                <h3><TbWand className="abtMe-cont-1-item-2-1-icon" />Graphic Design</h3>
+                <p className="abtMe-cont-1-item-2-1-p1"><TbMapPinFilled className="abtMe-cont-1-item-2-1-icon2" />Sekolah Seri Suria</p>
+                <p className="abtMe-cont-1-item-2-1-p2">Highschool, Semi-Science class' Graphic Design course</p>
+                <p className="abtMe-cont-1-item-2-1-p2">Learn sketching theory, Adobe Photoshop & Illustrator</p>
               </div>
             </div>
           </div>
