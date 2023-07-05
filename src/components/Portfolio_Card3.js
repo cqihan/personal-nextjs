@@ -200,6 +200,47 @@ export const ProjectsTemplate3 = () => {
               </div>
             </div>
 
+            <div className={`proj3-card-item pucceu`} data-aos="fade-up">
+              <div className={`proj2-desc-1-desc`}>
+                <div className={`proj2-desc-1-desc-header`}>
+                  <h3><TbBrandVscode className="proj2-card-icon" />Photography</h3>
+                  <span className={`proj2-desc-1-type`}>Landing</span>
+                </div>                
+                <p>This website is made to upload my photography hobby. I want to make my personal website other than my own portfolio and deploy it to a domain I purchased few years ago.</p>
+                <p> - Website is built on NextJS. <br/>
+                  - Style with SASS and tailwindcss. <br/>
+                  - I used ant-design image component for flexibility and preview function. 
+                </p>
+
+                <div className={`proj2-desc-1-desc-icons`}>
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/nextjs.png"
+                    popover_desc="Next.js by Vercel - The React Framework"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/sass_01.png"
+                    popover_desc="Sass: Syntactically Awesome Style Sheets"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/antdesign.png"
+                    popover_desc="Ant Design - A UI Design Language and React UI library"
+                  />
+                  <PopoverItem 
+                    popover_image="/assets/images/tools-icons/tailwindcss.png"
+                    popover_desc="Tailwind CSS - A utility-first CSS framework packed with classes"
+                  />
+                </div>
+
+                <div className={`proj2-desc-1-desc-button`}>
+                  <Link href="https://www.mclovinexpress-pucceu.com/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="default" auto size={`sm`} >
+                      View Website
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
             <div className={`proj3-card-item elysium`} data-aos="fade-up">
               <div className={`proj2-desc-1-desc`}>
                 <div className={`proj2-desc-1-desc-header`}>
