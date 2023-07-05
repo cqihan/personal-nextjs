@@ -209,7 +209,8 @@ export const ProjectsTemplate3 = () => {
                 <p>This website is made to upload my photography hobby. I want to make my personal website other than my own portfolio and deploy it to a domain I purchased few years ago.</p>
                 <p> - Website is built on NextJS. <br/>
                   - Style with SASS and tailwindcss. <br/>
-                  - I used ant-design image component for flexibility and preview function. 
+                  - I used ant-design image component for flexibility and preview function.  <br/>
+                  - Still in progress, more content to be updated!
                 </p>
 
                 <div className={`proj2-desc-1-desc-icons`}>
