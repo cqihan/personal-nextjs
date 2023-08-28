@@ -830,9 +830,14 @@ export const ProjectsTemplate3 = () => {
                 </div>
 
                 <div className={`proj2-desc-1-desc-button`}>
-                  <Link href="https://events.mprc.gov.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                  {/* <Link href="https://events.mprc.gov.my/" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
                     <Button color="success" auto size={`sm`} >
                       View MPRC
+                    </Button>
+                  </Link> */}
+                  <Link href="/assets/images/mprc.png" className="project-desc-2-btn-text" target="_blank" rel="noreferrer noopener">
+                    <Button color="success" auto size={`sm`} >
+                      View Image
                     </Button>
                   </Link>
                 </div>
